@@ -1,0 +1,13 @@
+{
+    "name": "Emarketing",
+    "description": "plugin E-mail Marketing",
+    "author": "Paulo Rogerio Rodrigues",
+    "authorEmail": "progerio@castelobranco.br",
+    "authorUrl": "http://www.castelobranco.br",
+    "dependencies": {
+        "plugins": [
+            "acl",
+            "extensions"
+        ]
+    }
+}

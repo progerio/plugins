@@ -1,0 +1,6544 @@
+#glb-doc {
+	text-align: center;
+	width: 100%
+}
+
+.glb-conteudo {
+	margin: 0 auto !important;
+	min-width: 960px;
+	width: 80em;
+	text-align: left
+}
+
+.glb-bloco {
+	overflow: hidden;
+	width: 100%
+}
+
+.glb-grid-1,.glb-grid-2,.glb-grid-3,.glb-grid-4,.glb-grid-5,.glb-grid-6,.glb-grid-7,.glb-grid-8,.glb-grid-9,.glb-grid-10,.glb-grid-11,.glb-grid-12
+	{
+	display: inline;
+	float: left;
+	margin: 0 .833em
+}
+
+.glb-grid-1 {
+	min-width: 60px;
+	width: 5em
+}
+
+.glb-grid-2 {
+	min-width: 140px;
+	width: 11.665em
+}
+
+.glb-grid-3 {
+	min-width: 220px;
+	width: 18.333em
+}
+
+.glb-grid-4 {
+	min-width: 300px;
+	width: 25em
+}
+
+.glb-grid-5 {
+	min-width: 380px;
+	width: 31.665em
+}
+
+.glb-grid-6 {
+	min-width: 460px;
+	width: 38.333em
+}
+
+.glb-grid-7 {
+	min-width: 540px;
+	width: 45em
+}
+
+.glb-grid-8 {
+	min-width: 620px;
+	width: 51.665em
+}
+
+.glb-grid-9 {
+	min-width: 700px;
+	width: 58.333em
+}
+
+.glb-grid-10 {
+	min-width: 780px;
+	width: 65em
+}
+
+.glb-grid-11 {
+	min-width: 860px;
+	width: 71.665em
+}
+
+.glb-grid-12 {
+	min-width: 940px;
+	width: 78.333em
+}
+
+.glb-primeiro {
+	margin-left: 0
+}
+
+.glb-ultimo {
+	margin-right: 0
+}
+
+#glb-doc {
+	font-size: 1.2em
+}
+
+
+.ct-box-destaque-carrossel * {
+	background: transparent;
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 0
+}
+
+
+.ct-box-destaque-carrossel li {
+	list-style: none
+}
+
+.ct-box-destaque-carrossel a {
+	text-decoration: none
+}
+
+.foto {
+	overflow: hidden;
+	zoom: 1
+}
+
+.foto .borda-interna,.foto .borda-interna img {
+	float: left;
+	overflow: hidden
+}
+
+.foto .borda-interna:hover {
+	border: 3px solid
+}
+
+.foto .borda-interna:hover img {
+	margin: -3px !important
+}
+
+.destaque,.widget {
+	z-index: 0
+}
+
+.destaque .esquerda,.foto.esquerda,.widget .esquerda {
+	float: left;
+	margin-left: 0
+}
+
+.destaque .direita,.widget .direita {
+	float: right;
+	margin-right: 0
+}
+
+.destaque .foto,.widget .foto {
+	position: relative
+}
+
+.destaque .foto img,.widget .foto img {
+	display: block
+}
+
+span.canto-caixa-ce,span.canto-caixa-cd,span.canto-caixa-re,span.canto-caixa-rd
+	{
+	height: 2px;
+	width: 2px;
+	position: absolute
+}
+
+span.canto-caixa-ce,.widget span.canto-caixa-ce {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-caixa-arredondado.png')
+		no-repeat 0 0;
+	top: 0;
+	left: 0
+}
+
+.widget span.canto-caixa-ce {
+	top: 0;
+	left: -1px
+}
+
+.destaque-urgente span.canto-caixa-ce {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat 0 0;
+	top: 0;
+	left: 0
+}
+
+span.canto-caixa-cd,.widget span.canto-caixa-cd {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-caixa-arredondado.png')
+		no-repeat -2px 0;
+	top: 0;
+	right: 0
+}
+
+.widget span.canto-caixa-cd {
+	top: 0;
+	right: -1px
+}
+
+.destaque-urgente span.canto-caixa-cd {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat -4px 0;
+	top: 0;
+	right: 0
+}
+
+span.canto-caixa-re,.widget span.canto-caixa-re {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-caixa-arredondado.png')
+		no-repeat 0 -2px;
+	bottom: 0;
+	left: 0
+}
+
+.widget span.canto-caixa-re {
+	bottom: -1px;
+	left: -1px
+}
+
+.destaque-urgente span.canto-caixa-re {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat 0 -4px;
+	bottom: 0;
+	left: 0
+}
+
+span.canto-caixa-rd,.widget span.canto-caixa-rd {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-caixa-arredondado.png')
+		no-repeat -2px -2px;
+	bottom: 0;
+	right: 0
+}
+
+.widget span.canto-caixa-rd {
+	bottom: -1px;
+	right: -1px
+}
+
+.destaque-urgente span.canto-caixa-rd {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat -4px -4px;
+	bottom: 0;
+	right: 0
+}
+
+.destaque .foto span,.widget .foto span {
+	display: block;
+	height: 3px;
+	width: 3px;
+	position: absolute
+}
+
+.destaque .foto span.canto-ce,.widget .foto span.canto-ce {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat 0 0;
+	top: 0;
+	left: 0
+}
+
+.destaque .foto span.canto-cd,.widget .foto span.canto-cd {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat -3px 0;
+	top: 0;
+	right: 0
+}
+
+.destaque .foto span.canto-re,.widget .foto span.canto-re {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat 0 -3px;
+	bottom: 0;
+	left: 0
+}
+
+.destaque .foto span.canto-rd,.widget .foto span.canto-rd {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat -3px -3px;
+	bottom: 0;
+	right: 0
+}
+
+.destaque .foto,.widget .foto {
+	margin-bottom: .83em;
+	zoom: 1
+}
+
+.l50 {
+	width: 50px
+}
+
+.l90 {
+	width: 90px
+}
+
+.l95 {
+	width: 95px
+}
+
+.l140 {
+	width: 140px
+}
+
+.l200 {
+	width: 200px
+}
+
+.l290 {
+	width: 290px
+}
+
+.l300 {
+	width: 300px
+}
+
+.l620 {
+	width: 620px
+}
+
+span.canto-caixa-ce,span.canto-caixa-cd,span.canto-caixa-re,span.canto-caixa-rd
+	{
+	_display: none
+}
+
+.destaque .foto span,.widget .foto span {
+	_display: none
+}
+
+.glb-opec>a {
+	display: none
+}
+
+.cabecalho-produto {
+	margin: 0 .833em;
+	min-height: 90px;
+	overflow: visible;
+	position: relative;
+	z-index: 9000
+}
+
+.cabecalho-produto .marca-produto {
+	display: block;
+	float: left;
+	height: 90px;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 100px
+}
+
+.cabecalho-produto .slogan,.cabecalho-produto .editoria {
+	border-left: 1px solid #E6E6E6;
+	margin-left: 1.41em
+}
+
+.cabecalho-produto .editoria {
+	float: left;
+	height: 46px;
+	margin-top: 23px;
+	overflow: hidden;
+	width: 245px
+}
+
+.cabecalho-produto .editoria h1,.cabecalho-produto .editoria h3 {
+	color: #555;
+	font-size: 2.5em;
+	font-weight: normal;
+	letter-spacing: -0.06em;
+	line-height: 42px;
+	padding-left: 19px
+}
+
+.cabecalho-produto .formato-comercial {
+	float: right;
+	margin: 26px 14px 0 40px;
+	width: 88px
+}
+
+.cabecalho-produto .formato-comercial img {
+	border: 1px solid #EEE
+}
+
+.cabecalho-produto .formato-comercial p {
+	color: #D2D2D2;
+	font-size: 9px;
+	margin-bottom: 1px;
+	padding-bottom: .3em;
+	text-align: center
+}
+
+.cabecalho-produto #busca-padrao {
+	float: right;
+	margin-top: 26px
+}
+
+#glb-rodape {
+	min-width: 960px;
+	overflow: hidden;
+	width: 100%;
+	background-color: #0660b8
+}
+
+#glb-rodape .glb-conteudo {
+	overflow: hidden;
+	padding: 1.07em 0
+}
+
+#glb-rodape a,#glb-rodape a:link,#glb-rodape a:visited {
+	color: #D5D7E1
+}
+
+#glb-rodape a:hover {
+	text-decoration: underline
+}
+
+#glb-rodape ul li {
+	display: inline
+}
+
+#glb-rodape ul li a {
+	border-left: 1px solid #666;
+	padding: 0 5px 0 8px
+}
+
+#glb-rodape ul li.primeiro a {
+	border: medium none
+}
+
+#glb-rodape ul li.ultimo a {
+	padding-right: 0
+}
+
+#glb-rodape .rodape-menu-produtos {
+	border-bottom: 1px solid #666;
+	clear: both;
+	margin-bottom: .92em;
+	overflow: hidden;
+	padding-bottom: .83em;
+	width: 100%
+}
+
+#glb-rodape .rodape-menu-produtos ul {
+	float: left;
+	padding-top: .16em
+}
+
+#glb-rodape .rodape-menu-produtos a {
+	font-weight: bold
+}
+
+#glb-rodape .rodape-menu-produtos .rodape-todos-sites {
+	float: right;
+	padding-top: .17em
+}
+
+#glb-rodape .rodape-menu-produtos .rodape-logo {
+	display: inline;
+	float: left;
+	height: 1.5em;
+	padding: .17em 1.67em 0 0;
+	width: 6em
+}
+
+#glb-rodape .rodape-menu-produtos .rodape-logo a {
+	display: block;
+	font-size: .83em;
+	height: 100%;
+	position: relative;
+	text-decoration: none
+}
+
+#glb-rodape .rodape-menu-produtos .rodape-logo a strong {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/logo_globo_rodape.png')
+		no-repeat scroll 0 0;
+	cursor: pointer;
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	width: 10em;
+	text-indent: -9999px
+}
+
+#glb-rodape .rodape-menu-servicos span {
+	display: inline;
+	float: left;
+	font-size: .91em;
+	padding-left: 1px
+}
+
+#glb-rodape .rodape-menu-servicos ul {
+	display: inline;
+	float: right;
+	font-size: .91em
+}
+
+#glb-menu {
+	margin: 0 auto 2.5em auto;
+	width: 80.3em;
+	position: relative;
+	z-index: 999
+}
+
+#glb-menu ul.menu-itens {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/bg-menu-rodape.jpg')
+		no-repeat bottom center;
+	border: 1px solid #eee;
+	border-width: 1px 0 0 0;
+	height: 33px;
+	overflow: visible;
+	margin: 0 10px;
+	zoom: 1
+}
+
+#glb-menu ul.menu-itens li {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/bkg_item_menu.png')
+		center left no-repeat;
+	color: #E6E6E6;
+	float: left;
+	position: relative
+}
+
+#glb-menu ul.menu-itens li:hover .menu-subitens {
+	display: block
+}
+
+#glb-menu ul.menu-itens li.menu-primeiro {
+	background: none
+}
+
+#glb-menu ul.menu-itens li a.first-node {
+	color: #666;
+	cursor: pointer;
+	letter-spacing: 0 !important;
+	display: block;
+	float: left;
+	height: 22px;
+	padding: 8px 12px 0 12px
+}
+
+#glb-menu ul.menu-itens li a.first-node:hover {
+	border-top: 1px solid #ddd;
+	margin-top: -1px;
+	text-decoration: none
+}
+
+#glb-menu ul.menu-itens li.menu-primeiro a.first-node {
+	padding-left: 0
+}
+
+#glb-menu ul.menu-itens li.menu-primeiro a {
+	padding-left: 0
+}
+
+#glb-menu .aba {
+	background-color: #fff;
+	border: 1px solid #cfcfcf;
+	border-width: 2px 1px 0 1px;
+	color: #666;
+	cursor: pointer;
+	height: 21px;
+	letter-spacing: 0 !important;
+	left: 0;
+	margin-top: -31px;
+	padding: 9px 12px 0 12px;
+	position: absolute;
+	top: 0;
+	z-index: 999
+}
+
+#glb-menu .aba:hover {
+	cursor: pointer
+}
+
+#glb-menu .aba .canto-te,#glb-menu .aba .canto-td {
+	display: block;
+	height: 2px;
+	width: 2px;
+	position: absolute;
+	top: -2px
+}
+
+#glb-menu .aba .canto-te {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/cantos-aba-menu.png')
+		no-repeat left top;
+	left: -1px
+}
+
+#glb-menu .aba .canto-td {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/cantos-aba-menu.png')
+		no-repeat right top;
+	right: -1px
+}
+
+#glb-menu .menu-primeiro .menu-subitens {
+	background: none;
+	top: 34;
+	left: -13px
+}
+
+#glb-menu .menu-subitens {
+	display: none;
+	position: absolute;
+	top: 28px;
+	left: -1px;
+	min-width: 12em;
+	*width: 12em;
+	zoom: 1
+}
+
+#glb-menu .menu-subitens .conteudo-subitens {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-width: 0 1px;
+	overflow: hidden
+}
+
+#glb-menu ul.menu-itens .menu-subitens .menu-canto-re,#glb-menu ul.menu-itens .menu-subitens .menu-canto-rd,#glb-menu ul.menu-itens .menu-subitens .menu-canto-td,#glb-menu ul.menu-itens .menu-subitens .menu-canto-te
+	{
+	font-size: 1px;
+	height: 5px
+}
+
+#glb-menu ul.menu-itens .menu-subitens .menu-canto-re {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/bkg_submenu.png')
+		no-repeat left bottom;
+	margin-right: 5px
+}
+
+#glb-menu ul.menu-itens .menu-subitens .menu-canto-rd {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/bkg_submenu.png')
+		no-repeat right bottom;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 5px
+}
+
+#glb-menu ul.menu-itens .menu-subitens .menu-canto-td {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/bkg_submenu.png')
+		no-repeat right top;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 5px
+}
+
+#glb-menu ul.menu-itens .menu-subitens .menu-canto-te {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/bkg_submenu.png')
+		no-repeat left top;
+	margin-right: 5px
+}
+
+#glb-menu ul.menu-itens .menu-subitens ul {
+	float: left;
+	padding: 8px 10px 8px;
+	width: 136px
+}
+
+#glb-menu ul.menu-itens .menu-subitens li {
+	background: none;
+	color: #595959;
+	display: block;
+	float: none;
+	line-height: 14px;
+	zoom: 1
+}
+
+#glb-menu ul.menu-itens .menu-subitens li.submenu-agrupador {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 8px;
+	padding-bottom: 7px
+}
+
+#glb-menu ul.menu-itens .menu-subitens li.submenu-agrupador a,#glb-menu ul.menu-itens .menu-subitens li.submenu-agrupador span
+	{
+	font-weight: bold;
+	padding: 1px 3px
+}
+
+#glb-menu ul.menu-itens .menu-subitens li:last-child {
+	border: 0;
+	margin: 0;
+	padding: 0
+}
+
+#glb-menu ul.menu-itens .menu-subitens li a,#glb-menu ul.menu-itens .menu-subitens li span
+	{
+	color: #595959;
+	display: inline-block;
+	padding: 2px 4px
+}
+
+#glb-menu ul.menu-itens .menu-subitens li a:hover {
+	background: #666
+}
+
+#glb-menu ul.menu-itens .menu-subitens li a:hover,#glb-menu ul.menu-itens .menu-subitens li a:hover span
+	{
+	color: #fff
+}
+
+#glb-menu ul.menu-itens .menu-subitens .aba a {
+	display: block;
+	color: #666
+}
+
+#glb-menu ul.menu-itens .menu-subitens .menu-subitens-interno ul {
+	float: none;
+	display: block;
+	padding: 0
+}
+
+#glb-menu ul.menu-itens .menu-subitens .menu-subitens-interno li {
+	border: 0;
+	color: #aaa;
+	zoom: 1
+}
+
+#glb-menu ul.menu-itens .menu-subitens .menu-subitens-interno li a {
+	font-weight: normal
+}
+
+#glb-menu .base-texto {
+	border-top: 1px solid #eee;
+	clear: both;
+	margin: 10px;
+	padding-top: 3px
+}
+
+#glb-menu .base-patrocinio {
+	border-top: 1px solid #cfcfcf;
+	clear: both;
+	height: 2.75em;
+	line-height: 2.75em;
+	padding: 10px
+}
+
+#glb-menu .base-patrocinio img {
+	float: right
+}
+
+#glb-menu .base-patrocinio span {
+	float: left
+}
+
+#glb-diretorio {
+	background-color: #1680E4
+}
+
+#glb-diretorio span.glb-borda {
+	line-height: 3px;
+	font-size: 0
+}
+
+#glb-diretorio span.glb-borda {
+	line-height: 3px
+}
+
+#glb-diretorio .glb-conteudo {
+	margin: 0 auto;
+	padding-bottom: 3em
+}
+
+#glb-diretorio .glb-conteudo .glb-bloco {
+	border-top: none;
+	padding: 0 0 0
+}
+
+#glb-diretorio .glb-conteudo ul li.diretorio-indice {
+	margin: 2.75em 0 1em 0
+}
+
+#glb-diretorio .glb-conteudo ul li.item-quebra-linha {
+	margin-top: 1.1em;
+	padding: 1.44em 0
+}
+
+#glb-diretorio .glb-conteudo .diretorio-indice strong {
+	color: #FFF;
+	font-size: 1.17em;
+	font-weight: bold;
+	letter-spacing: -0.03em
+}
+
+#glb-diretorio .glb-conteudo ul li a {
+	color: #FFF;
+	font-size: .92em;
+	line-height: 1.45em
+}
+
+#glb-diretorio .glb-conteudo ul li a:hover {
+	text-decoration: underline
+}
+
+#glb-diretorio .divisoria {
+	border-left: 1px solid #707cb1;
+	padding-left: 8px
+}
+
+.campo,.campo input,.campo input.error,.campo-error {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/forms.png') scroll
+		no-repeat
+}
+
+.botao,.botao a {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/botoes-texto.png')
+		no-repeat scroll
+}
+
+.opec-container {
+	margin-bottom: 30px;
+	position: relative
+}
+
+.publicidade-middle {
+	margin: 14px auto 8px auto;
+	min-height: 122px;
+	*height: 122px;
+	overflow: visible;
+	position: relative;
+	width: 940px
+}
+
+#middle-banner {
+	bottom: 10px;
+	height: 100px;
+	left: 9px;
+	overflow-y: hidden;
+	position: absolute;
+	width: 920px;
+	z-index: 999 !important
+}
+
+#banner-conteudo {
+	top: -420px;
+	height: 520px;
+	position: absolute
+}
+
+#banner-conteudo object {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	*top: 26px;
+	top: 26px\9 z-index : 501
+}
+
+#banner-conteudo embed {
+	top: 0
+}
+
+.box-opec-middle {
+	padding: 10px 0;
+	border: 1px solid #D1D1D1;
+	position: absolute;
+	margin-top: 3px;
+	height: 100px;
+	width: 938px;
+	left: 0;
+	z-index: 500 !important;
+	background-color: #fff
+}
+
+.box-opec-middle p {
+	background: #fff;
+	color: #9C9C9C;
+	font-size: .75em;
+	left: 2.84em;
+	padding: 0 3px;
+	position: absolute;
+	text-transform: uppercase;
+	top: -0.67em
+}
+
+.botao-acao-publicidade {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/banner_maismenos.png')
+		no-repeat -1px 0;
+	padding: 0;
+	position: absolute;
+	left: 458px;
+	text-align: center;
+	top: -1.28em;
+	height: 2em;
+	width: 2.3em;
+	overflow: hidden;
+	text-indent: -9999px
+}
+
+.widget {
+	border: 1px solid #ddd;
+	border-top: 0;
+	position: relative;
+	margin-bottom: 2.5em
+}
+
+.widget p,.widget strong {
+	display: block;
+	margin-bottom: .5em
+}
+
+.widget-titulo {
+	border-top: 2px solid #A1A1A1;
+	overflow: hidden;
+	zoom: 1
+}
+
+.widget-titulo strong {
+	color: #333;
+	font-size: 1.333em;
+	float: left;
+	padding: 10px 0 11px 12px;
+	width: 70%;
+	margin-bottom: 0
+}
+
+.widget-titulo strong a {
+	color: #333
+}
+
+.widget-titulo strong a:hover {
+	color: #333
+}
+
+.widget .chamada strong a {
+	font-size: 1.5em;
+	letter-spacing: -0.03em
+}
+
+.widget .chamada-principal {
+	border-top: 1px solid #ddd;
+	padding: 5px
+}
+
+.widget .chamada-secundaria .foto {
+	margin-right: .83em
+}
+
+.widget .chamada-rodape a {
+	font-size: 1em;
+	font-weight: bold
+}
+
+.widget .chamada-rodape a.rodape-titulo {
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	letter-spacing: -0.03em
+}
+
+.widget .chamada-rodape,.widget .chamada-secundaria li {
+	border-top: 1px solid #ddd;
+	clear: both;
+	padding: 9px 12px 10px 12px;
+	overflow: hidden
+}
+
+.widget .chamada-secundaria ul {
+	border: 1px solid red
+}
+
+.widget .chamada-secundaria li {
+	border: 1px solid blue
+}
+
+.widget .comercial-e1 {
+	float: right;
+	margin: 1px;
+	width: 60px
+}
+
+.widget .foto {
+	margin-bottom: 1px
+}
+
+.widget .ant span,.widget .prox span {
+	text-indent: -9999px;
+	display: block;
+	margin: 5px 0 0 5px;
+	height: 65%;
+	width: 70%;
+	background: #CCC;
+	position: relative;
+	z-index: -1;
+	overflow: hidden
+}
+
+.widget .ant {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/botoes-simbolos.png')
+		scroll no-repeat 3px -310px;
+	display: block;
+	width: 24px;
+	height: 24px
+}
+
+.widget .ant:hover {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/botoes-simbolos.png')
+		scroll no-repeat -23px -310px
+}
+
+.widget .ant:active {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/botoes-simbolos.png')
+		scroll no-repeat -50px -311px
+}
+
+.widget .prox {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/botoes-simbolos.png')
+		scroll no-repeat 3px -134px;
+	display: block;
+	width: 24px;
+	height: 24px
+}
+
+.widget .prox:hover {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/botoes-simbolos.png')
+		scroll no-repeat -23px -134px
+}
+
+.widget .prox:active {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/botoes-simbolos.png')
+		scroll no-repeat -50px -135px
+}
+
+.widget .nav .navegacao-pagina {
+	color: #D4D4D4;
+	font-size: 1.92em;
+	margin: 0 2px 0 2px
+}
+
+.widget .nav .activeSlide {
+	color: #666
+}
+
+.destaque {
+	margin-bottom: 1.666em;
+	padding-bottom: 10px;
+	overflow: hidden;
+	zoom: 1
+}
+
+.destaque .esquerda {
+	margin-left: 0 !important
+}
+
+.destaque .direita {
+	margin-right: 0 !important
+}
+
+.glb-grid-4 .destaque:last-child {
+	background: 0;
+	margin: 0
+}
+
+.chamada .chapeu,.chamada-relacionada .chapeu {
+	font-size: .833em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #666;
+	margin-bottom: 5px;
+	line-height: 1em;
+	display: inline-block;
+	min-width: 3em
+}
+
+.chamada .subtitulo {
+	color: #666;
+	line-height: 1.2em
+}
+
+.chamada a:hover {
+	text-decoration: underline
+}
+
+.chamada .foto.esquerda {
+	float: left;
+	margin: 0 1.5em .833em 0
+}
+
+.chamada .foto.direita {
+	float: right;
+	margin: 0 0 .833em .833em
+}
+
+.chamada-secundaria li {
+	list-style: disc;
+	list-style-position: inside
+}
+
+.chamada-relacionada li .titulo {
+	display: block;
+	font-size: 1.166em;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	padding-bottom: .9em
+}
+
+.chamada-relacionada li {
+	color: #5C6BAC;
+	list-style: disc;
+	list-style-position: inside;
+	font-size: 1em;
+	padding-left: 1px
+}
+
+.chamada-relacionada a {
+	font-weight: bold;
+	line-height: 1.2em
+}
+
+.noticias .destaque-tematico .destaque-titulo {
+	border-top-color: #a80000
+}
+
+.esportes .destaque-tematico .destaque-titulo {
+	border-top-color: #607f03
+}
+
+.entretenimento .destaque-tematico .destaque-titulo {
+	border-top-color: #f90
+}
+
+.destaque-principal {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/borderbottom.gif')
+		bottom center repeat-x
+}
+
+.destaque-principal p {
+	color: #686868;
+	font-size: 1.17em;
+	line-height: 1.2em
+}
+
+.destaque-principal .titulo {
+	font-size: 2.67em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: .98em;
+	display: block
+}
+
+.destaque-principal .titulo a:hover {
+	text-decoration: underline
+}
+
+.destaque-principal .subtitulo {
+	font-size: 1.333em;
+	padding-bottom: 12px
+}
+
+.destaque-principal .titulo,.destaque-principal .subtitulo {
+	padding-bottom: 12px
+}
+
+.destaque-principal .foto {
+	margin-bottom: 1.25em
+}
+
+.destaque-principal .video {
+	padding-bottom: 12px
+}
+
+.destaque-principal .chamada-relacionada {
+	padding-bottom: 10px
+}
+
+.destaque-secundario p {
+	color: #686868;
+	font-size: 1.17em
+}
+
+.destaque-secundario {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/borderbottom.gif')
+		bottom repeat-x
+}
+
+.destaque-secundario .chamada .titulo {
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: -0.03em;
+	*letter-spacing: -1px;
+	line-height: 1.1em;
+	display: block
+}
+
+.destaque-secundario .chamada .chapeu {
+	font-size: .83em
+}
+
+.destaque-secundario .chamada .titulo,.destaque-secundario .chamada .subtitulo
+	{
+	padding-bottom: 7px
+}
+
+.destaque-secundario .duplo {
+	width: 140px
+}
+
+.destaque-secundario .duplo .foto {
+	margin-right: 0;
+	margin-bottom: .93em
+}
+
+.destaque-secundario-wide .foto {
+	margin-right: 0
+}
+
+.destaque-secundario .chamada-relacionada {
+	clear: both;
+	padding-bottom: 10px
+}
+
+.destaque-terciario p {
+	color: #686868
+}
+
+.destaque-terciario {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/borderbottom.gif')
+		bottom repeat-x
+}
+
+.destaque-terciario .chamada .titulo {
+	font-size: 1.33em;
+	font-weight: bold;
+	letter-spacing: -0.04em;
+	*letter-spacing: -1px;
+	line-height: 1.1em;
+	display: block;
+	margin-bottom: 5px
+}
+
+.destaque-terciario .chamada .chapeu {
+	font-size: .83em;
+	margin-bottom: 8px
+}
+
+.destaque-terciario .chamada .subtitulo {
+	font-size: 1em;
+	margin-bottom: 8px
+}
+
+.destaque-terciario .foto.esquerda {
+	margin: 0 14px 10px 0
+}
+
+.destaque-terciario .chamada .conteudo {
+	float: left;
+	width: 58%
+}
+
+.destaque-terciario .chamada .chapeu-topo-foto {
+	display: block
+}
+
+.destaque-agrupamento {
+	margin-bottom: 1.95em
+}
+
+.destaque-agrupamento .ultimo {
+	border-right: none !important;
+	margin-right: 0 !important;
+	padding-right: 0 !important
+}
+
+.destaque-agrupamento li {
+	list-style: none !important
+}
+
+.destaque-agrupamento .quadruplo {
+	float: left;
+	overflow: hidden;
+	width: 630px;
+	zoom: 1
+}
+
+.destaque-agrupamento .quadruplo li {
+	float: left;
+	min-width: 140px;
+	margin-right: 1.66em;
+	width: 11.665em;
+	_margin: 0;
+	_min-width: 140px;
+	_width: 150px
+}
+
+.destaque-agrupamento .destaque-topo {
+	border-top: 4px solid #000;
+	overflow: hidden;
+	padding-top: 12px;
+	padding-bottom: 21px;
+	zoom: 1
+}
+
+.destaque-agrupamento .destaque-topo-conteudo {
+	float: left
+}
+
+.destaque-agrupamento .destaque-topo .titulo {
+	font-size: 1.67em;
+	font-weight: bold;
+	display: block;
+	letter-spacing: -1px;
+	line-height: 100%;
+	text-decoration: none
+}
+
+.destaque-agrupamento .destaque-topo .titulo span {
+	color: #333
+}
+
+.destaque-agrupamento .chamada .foto {
+	margin-bottom: 7px;
+	*margin-bottom: 10px
+}
+
+.destaque-agrupamento .quadruplo .foto {
+	margin-bottom: 12px
+}
+
+.destaque-agrupamento .chamada .foto.esquerda {
+	margin-bottom: 1em;
+	margin-right: 1.2em;
+	_margin-right: .8em
+}
+
+.destaque-agrupamento .foto.l90 {
+	margin-bottom: 12px
+}
+
+.destaque-agrupamento .chapeu {
+	color: #666
+}
+
+.destaque-agrupamento .chamada-secundaria .chapeu {
+	margin-bottom: 6px
+}
+
+.destaque-agrupamento .chamada a.titulo {
+	display: block;
+	font-size: 1.166em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1.2em;
+	padding-bottom: 8px
+}
+
+.destaque-agrupamento .quadruplo a.titulo {
+	display: block;
+	font-size: 1.166em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1.2em;
+	padding-bottom: 8px
+}
+
+.destaque-agrupamento .chamada a.titulo:hover {
+	text-decoration: underline
+}
+
+.destaque-agrupamento .chamada .subtitulo {
+	margin-top: -4px;
+	padding-bottom: 8px
+}
+
+.destaque-agrupamento .chamada-secundaria {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/borderbottom.gif')
+		top repeat-x;
+	padding-top: 1em;
+	overflow: hidden;
+	zoom: 1
+}
+
+.ul li.chamada-secundaria {
+	border-top: 1px dotted #ddd;
+	padding-top: 1em;
+	overflow: auto;
+	zoom: 1
+}
+
+.destaque-agrupamento .chamada-rodape {
+	border-top: 1px solid #ddd;
+	padding-top: .83em
+}
+
+.destaque-agrupamento .chamada-rodape a {
+	font-size: 1.17em;
+	font-weight: bold
+}
+
+.destaque-agrupamento.destaque {
+	margin-bottom: 15px !important
+}
+
+.widget-video .video {
+	margin-bottom: .83em;
+	overflow: hidden;
+	zoom: 1
+}
+
+.widget-video .video .container-video {
+	height: 220px
+}
+
+.widget-video .foto {
+	margin-bottom: 0
+}
+
+.widget-video .chamada-principal .chapeu,.widget-video .chamada-principal .titulo
+	{
+	padding: 0 7px
+}
+
+.widget-video .chamada-principal .chapeu {
+	margin-bottom: 3px
+}
+
+.widget-video .chamada-principal .rodape {
+	font-size: 1.5em;
+	letter-spacing: -0.03em;
+	color: #333
+}
+
+.widget-video .chamada-secundaria strong a {
+	font-size: 1.2em
+}
+
+.destaque-secundario .foto {
+	margin-bottom: 12px
+}
+
+.destaque-secundario .subtitulo {
+	line-height: 16px
+}
+
+.destaque-secundario .titulo {
+	line-height: 1.1em
+}
+
+.destaque-urgente {
+	background: black;
+	clear: both;
+	color: #FFF;
+	margin-bottom: 30px;
+	padding-bottom: 0 !important;
+	position: relative;
+	overflow: hidden
+}
+
+* html .destaque-urgente {
+	height: 1%
+}
+
+.destaque-urgente .etiqueta {
+	background: black;
+	color: #FFF;
+	font-size: 1.83em;
+	font-weight: bold;
+	float: left;
+	height: 46px;
+	letter-spacing: -0.03em;
+	padding: 9px 0 0 15px;
+	width: 203px
+}
+
+.destaque-urgente .chamada {
+	background: #2F77C9;
+	float: right;
+	padding: 9px 20px 0;
+	width: 680px;
+	height: 46px
+}
+
+.destaque-urgente a,.destaque-urgente strong a {
+	color: #FFF
+}
+
+.destaque-urgente a:hover {
+	text-decoration: underline
+}
+
+.destaque-urgente .titulo {
+	color: #fff;
+	font-size: 1.67em;
+	letter-spacing: -0.03em;
+	padding-left: 0;
+	width: auto
+}
+
+.destaque-urgente .subtitulo {
+	clear: both;
+	color: #FFF;
+	margin-top: 2px
+}
+
+.destaque-principal.foto-topo {
+	margin-bottom: 1.666em;
+	padding-bottom: 8px
+}
+
+.destaque-principal.foto-topo .foto {
+	margin-bottom: 1.083em
+}
+
+.destaque-principal.foto-topo .chapeu {
+	margin-bottom: .7em
+}
+
+.destaque-principal.foto-topo .titulo {
+	padding-bottom: 12px
+}
+
+.destaque-principal.foto-topo .chamada-relacionada {
+	margin-bottom: 12px
+}
+
+.maisvistas {
+	position: relative
+}
+
+.maisvistas ul {
+	list-style: none
+}
+
+.maisvistas h2 {
+	color: #656565;
+	font-size: 2em;
+	margin: 10px 25px 0 0;
+	float: left;
+	letter-spacing: -1px
+}
+
+.maisvistas ul,.maisvistas ul li {
+	margin: 0;
+	padding: 0
+}
+
+.maisvistas .abas {
+	float: left;
+	margin: 10px 0 0 0;
+	position: relative;
+	z-index: 2
+}
+
+.maisvistas .abas li {
+	float: left;
+	width: 10.1em;
+	background-color: #f7f7f7;
+	border: 1px solid #e7e7e7;
+	border-style: solid solid none solid;
+	margin-top: 4px;
+	text-align: center;
+	margin-left: -1px
+}
+
+.maisvistas .abas li.aba-primeira {
+	border-left: 1px solid #e7e7e7;
+	margin-left: 0
+}
+
+.maisvistas .abas li a {
+	display: block;
+	height: 1.8em;
+	padding-top: .6em
+}
+
+.maisvistas .abas li a,.maisvistas .abas li a:link,.maisvistas .abas li a:active,.maisvistas .abas li a:hover
+	{
+	color: #666;
+	text-decoration: none;
+	font-size: 1.1em
+}
+
+.maisvistas .abas li.ui-tabs-selected {
+	float: left;
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+	margin-top: 0
+}
+
+.maisvistas .abas li.ui-tabs-selected a {
+	color: #333;
+	font-weight: bold;
+	height: 1.8em;
+	padding-top: .91em
+}
+
+.maisvistas .aba-conteudo {
+	clear: left;
+	float: left;
+	position: relative;
+	z-index: 1;
+	width: 78.3em;
+	border-top: 1px solid #e7e7e7;
+	padding-top: 12px;
+	margin: -0.1em 0 12px
+}
+
+.maisvistas .aba-conteudo ul {
+	float: left
+}
+
+.maisvistas-materias ul {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/portal/img/desktop/componentes/box/conteudo/maisvistas/numbers.gif')
+		scroll no-repeat 5px 10px;
+	width: 24.9em;
+	margin: 7px 0 0 20px
+}
+
+.maisvistas-materias ul.noticias {
+	margin-left: 0
+}
+
+.maisvistas-materias ul li {
+	border-bottom: 1px solid #e6e6e6;
+	height: 3.25em;
+	padding: 9px 0 0 37px
+}
+
+.maisvistas-materias ul li.item-ultimo {
+	border-bottom: none
+}
+
+.maisvistas-materias a {
+	font-size: 1.16em;
+	text-decoration: none
+}
+
+.maisvistas-fotos {
+	border-top: 1px solid #d1d1d1;
+	padding: 8px 0 8px 8px
+}
+
+.maisvistas-fotos ul {
+	overflow: hidden;
+	zoom: 1
+}
+
+.maisvistas-fotos ul.noticias {
+	margin-left: 0
+}
+
+.maisvistas-fotos ul li {
+	float: left;
+	display: inline;
+	margin: 1px
+}
+
+.maisvistas-fotos ul li a,.maisvistas-fotos ul li a img {
+	float: left
+}
+
+.maisvistas-videos ul {
+	width: 23.5em;
+	padding: 8px;
+	border: 1px solid #ddd;
+	margin-left: 1.6em
+}
+
+.maisvistas-videos ul.noticias {
+	margin-left: 0
+}
+
+.maisvistas-videos ul li {
+	border: 1px solid #DDD;
+	margin-left: 1.6em;
+	padding: 8px;
+	width: 23.5em
+}
+
+.maisvistas-videos ul li a,.maisvistas-videos ul li a img {
+	float: left
+}
+
+.maisvistas-videos ul li a img {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px
+}
+
+.maisvistas-fotos,.maisvistas-videos {
+	
+}
+
+.maisvistas-fotos .fotoMedia {
+	width: 139px;
+	height: 102px
+}
+
+.maisvistas-fotos .fotoPequena {
+	width: 92px;
+	height: 70px
+}
+
+.maisvistas-videos .videoGrande {
+	width: 280px;
+	height: 149px
+}
+
+.maisvistas-videos .videoPequeno {
+	width: 90px;
+	height: 51px
+}
+
+.maisvistas-tooltip {
+	position: absolute;
+	display: none;
+	padding: 1px;
+	overflow: hidden;
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/estrutura/img/box/agrupamento_mosaico/tooltip-backgrounds.png')
+		scroll no-repeat top left
+}
+
+.maisvistas-tooltip.bg1 {
+	background-position: 0 0
+}
+
+.maisvistas-tooltip.bg2 {
+	background-position: -102px 0
+}
+
+.maisvistas-tooltip.bg3 {
+	background-position: -208px 0
+}
+
+.maisvistas-tooltip.bg4 {
+	background-position: -359px 0
+}
+
+.maisvistas-tooltip a {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%
+}
+
+.maisvistas-tooltip a:hover {
+	text-decoration: none
+}
+
+.maisvistas-tooltip.inverted .texto {
+	padding: 7px 10px
+}
+
+.maisvistas-tooltip .texto {
+	padding: 4px 10px;
+	position: absolute
+}
+
+.maisvistas-tooltip .numero {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/estrutura/img/box/agrupamento_mosaico/numbers.gif')
+		scroll no-repeat 5px 5px;
+	height: 48px;
+	width: 29px;
+	float: left
+}
+
+.maisvistas-tooltip .descricao {
+	font-size: .916em;
+	line-height: 1.16em
+}
+
+.maisvistas-tooltip.inverted .numero {
+	height: 40px
+}
+
+.maisvistas-tooltip.inverted .descricao {
+	clear: both;
+	line-height: 1.09em
+}
+
+.ui-tabs .ui-tabs-hide {
+	display: none
+}
+
+.agrupamento-mosaico {
+	width: 298px
+}
+
+.maisvistas-fotos li.fotoMedia img {
+	min-height: 70px
+}
+
+.agrupamento-programacao .menu-apoio {
+	float: right;
+	padding-top: .5em
+}
+
+.agrupamento-programacao .menu-apoio li {
+	border-right: 1px solid #d6d6d6;
+	display: inline;
+	margin-right: .5em;
+	padding-right: .3em
+}
+
+.agrupamento-programacao .menu-apoio a {
+	font-size: .833em;
+	text-transform: uppercase
+}
+
+.agrupamento-programacao .widget-programacao .programacao-rodape a {
+	margin-top: 0;
+	padding-top: 0
+}
+
+.widget-programacao {
+	float: right;
+	width: 300px;
+	position: relative
+}
+
+.widget-programacao .grade-programacao {
+	border: 0 solid #d1d1d1;
+	border-top: 0;
+	display: none;
+	*overflow: hidden
+}
+
+.destaque-agrupamento .grade-programacao li {
+	border-top: 1px solid #d1d1d1;
+	clear: both;
+	padding: 10px;
+	overflow: hidden;
+	height: 19px;
+	*margin-bottom: -60px;
+	_margin-bottom: 0
+}
+
+.widget-programacao a:hover,.agrupamento-programacao .menu-apoio a:hover
+	{
+	text-decoration: underline
+}
+
+.widget-programacao .grade-programacao li.primeiro {
+	border-top: none
+}
+
+.widget-programacao .grade-programacao li .programacao-hora {
+	color: #c6c6c6;
+	float: left;
+	font-size: 1.33em;
+	margin-right: .6em;
+	margin-bottom: 0;
+	padding-top: 2px
+}
+
+.widget-programacao .grade-programacao li .programacao-noar {
+	background:
+		url('http://s.glbimg.com/es/ge/media/grade_programacao/img/icone-no-ar.gif')
+		no-repeat 0 0;
+	display: none;
+	float: left;
+	height: 13px;
+	margin-top: 3px;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 2.75em
+}
+
+.widget-programacao .grade-programacao li a {
+	float: right;
+	font-weight: bold;
+	z-index: 999;
+	padding-top: 3px
+}
+
+.widget-programacao .programacao-rodape {
+	background: #F2F2F2;
+	font-size: .916em;
+	height: 34px !important;
+	line-height: 34px;
+	padding: 0 10px 0 0 !important
+}
+
+.tooltip-template {
+	display: none;
+	position: relative
+}
+
+.tooltip-info {
+	background: #FFF;
+	border: 1px solid #DDD;
+	padding: .50em;
+	position: relative;
+	overflow: auto;
+	width: 15em
+}
+
+.tooltip-info .titulo {
+	color: #5d616a;
+	display: block;
+	font-size: 1em;
+	padding: .35em
+}
+
+.tooltip-info img {
+	float: left;
+	margin-right: .5em;
+	overflow: hidden
+}
+
+.tooltip-info span {
+	display: block
+}
+
+.tooltip-info .canto-caixa-ce,.tooltip-info .canto-caixa-cd,.tooltip-info .canto-caixa-re,.tooltip-info .canto-caixa-rd
+	{
+	padding: 0;
+	display: block
+}
+
+.agrupamento-programacao .quadruplo {
+	background:
+		url('http://s.glbimg.com/es/ge/media/estrutura/img/box/agrupamento_horizontal_programacao/bkg.gif')
+		no-repeat 149px 0;
+	background-repeat: repeat-y
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas {
+	border-top: 1px solid #D1D1D1;
+	font-size: 1.083em;
+	line-height: 16px;
+	padding: 0 10px
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol {
+	list-style-type: decimal
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol li {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/borderbottom.gif')
+		repeat-x scroll center top;
+	min-height: 26px;
+	padding: 0 0 8px 0
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol li a {
+	display: block;
+	min-height: 29px;
+	padding: 9px 0 0 38px
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol li a:hover {
+	text-decoration: underline
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol li:first-child {
+	background: 0
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol li.posicao-2 a {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/estrutura/img/box/agrupamento_ranking/numbers.gif')
+		no-repeat scroll 5px 9px
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol li.posicao-3 a {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/estrutura/img/box/agrupamento_ranking/numbers.gif')
+		no-repeat scroll 5px -70px
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol li.posicao-4 a {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/estrutura/img/box/agrupamento_ranking/numbers.gif')
+		no-repeat scroll 5px -148px
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol li.posicao-5 a {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/estrutura/img/box/agrupamento_ranking/numbers.gif')
+		no-repeat scroll 5px -226px
+}
+
+.agrupamento-ranking-textual .chamadas-maislidas ol li.posicao-6 a {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/estrutura/img/box/agrupamento_ranking/numbers.gif')
+		no-repeat scroll 5px -306px
+}
+
+.destaque-principal.wide-foto-topo {
+	margin-bottom: 1.666em;
+	padding-bottom: 8px
+}
+
+.destaque-principal.wide-foto-topo .foto {
+	margin-bottom: 12px
+}
+
+.destaque-principal.wide-foto-topo .titulo {
+	padding-bottom: 8px
+}
+
+.destaque-principal.wide-foto-topo .chamada-relacionada {
+	margin-bottom: 12px
+}
+
+.destaque-principal.wide-foto-topo .foto .foto {
+	margin: 0 !important
+}
+
+.destaque-principal.wide-foto-topo .foto .legenda {
+	background-color: #EEE;
+	padding: .8em;
+	color: #333;
+	font-size: .915em
+}
+
+.triplo-wide .triplo {
+	width: 200px;
+	margin-right: 10px;
+	float: left
+}
+
+.triplo-wide .triplo .chamada .titulo {
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: -0.03em;
+	*letter-spacing: -1px;
+	line-height: 1.1em;
+	display: block
+}
+
+.triplo-wide .triplo .chamada .subtitulo {
+	font-size: 1.17em
+}
+
+.triplo-wide .triplo .foto {
+	margin-bottom: 1em
+}
+
+.triplo-wide .triplo .chamada .chapeu {
+	font-size: .83em
+}
+
+.triplo-wide .triplo .chamada .titulo {
+	padding-bottom: 4px
+}
+
+.triplo-wide .triplo .chamada .subtitulo {
+	padding-bottom: 8px
+}
+
+.triplo-wide .triplo.ultimo {
+	margin-right: 0
+}
+
+.destaque-secundario.foto-meio .foto {
+	margin-top: 4px
+}
+
+.foto-legenda {
+	padding-bottom: 20px
+}
+
+.foto-legenda .legenda {
+	padding: 0 10px 7px;
+	line-height: 14px;
+	font-size: 11px;
+	letter-spacing: 0
+}
+
+.foto-legenda .legenda-container {
+	background-color: #DDD
+}
+
+.foto-legenda .foto {
+	margin-bottom: 7px
+}
+
+@font-face {
+	font-family: 'Museo-500';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/fc69f335a3572699b83489296276a58f.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/fc69f335a3572699b83489296276a58f.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/fc69f335a3572699b83489296276a58f.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/fc69f335a3572699b83489296276a58f.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaA-Thin';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/dd6f9d5e766bbea171c176330676d8ea.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/dd6f9d5e766bbea171c176330676d8ea.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/dd6f9d5e766bbea171c176330676d8ea.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/dd6f9d5e766bbea171c176330676d8ea.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaS-Thin';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/73a78a7d14971f9cc6eaa3a765f973b2.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/73a78a7d14971f9cc6eaa3a765f973b2.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/73a78a7d14971f9cc6eaa3a765f973b2.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/73a78a7d14971f9cc6eaa3a765f973b2.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaS-Semibold';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/a14fadf5e3a72ebc258878276f11cdd4.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/a14fadf5e3a72ebc258878276f11cdd4.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/a14fadf5e3a72ebc258878276f11cdd4.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/a14fadf5e3a72ebc258878276f11cdd4.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaA-Regular';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/c7ed503fd3098162f4f53db1b770c8d5.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/c7ed503fd3098162f4f53db1b770c8d5.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/c7ed503fd3098162f4f53db1b770c8d5.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/c7ed503fd3098162f4f53db1b770c8d5.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaS-Light';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/29f71ae2202112cd1cf0ac7016b3236b.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/29f71ae2202112cd1cf0ac7016b3236b.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/29f71ae2202112cd1cf0ac7016b3236b.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/29f71ae2202112cd1cf0ac7016b3236b.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaA-Light';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/36bb710e8fe348d8c0c03fda5faff0d5.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/36bb710e8fe348d8c0c03fda5faff0d5.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/36bb710e8fe348d8c0c03fda5faff0d5.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/36bb710e8fe348d8c0c03fda5faff0d5.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaS-Bold';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/33ecbf411d812e02c2bae055023306f2.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/33ecbf411d812e02c2bae055023306f2.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/33ecbf411d812e02c2bae055023306f2.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/33ecbf411d812e02c2bae055023306f2.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaA-Bold';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/39d1ae2af3f4ebc2306fc05c00308d5f.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/39d1ae2af3f4ebc2306fc05c00308d5f.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/39d1ae2af3f4ebc2306fc05c00308d5f.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/39d1ae2af3f4ebc2306fc05c00308d5f.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaA-Semibold';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/7528f4fe55cb3251bb836ec0b4511c42.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/7528f4fe55cb3251bb836ec0b4511c42.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/7528f4fe55cb3251bb836ec0b4511c42.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/7528f4fe55cb3251bb836ec0b4511c42.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaS-Regular';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/51ee1d5427e20ac1f4d645a61bb19f59.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/51ee1d5427e20ac1f4d645a61bb19f59.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/51ee1d5427e20ac1f4d645a61bb19f59.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/51ee1d5427e20ac1f4d645a61bb19f59.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNovaT-Thin';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/b31c95ca85afdfd8681a04e9a6a5bb58.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/b31c95ca85afdfd8681a04e9a6a5bb58.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/b31c95ca85afdfd8681a04e9a6a5bb58.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/b31c95ca85afdfd8681a04e9a6a5bb58.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/6d3bcabe7a803ae6fcdd7e47c1c5f135.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/6d3bcabe7a803ae6fcdd7e47c1c5f135.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/6d3bcabe7a803ae6fcdd7e47c1c5f135.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/6d3bcabe7a803ae6fcdd7e47c1c5f135.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/8c4ca46fc1e4008f5a90fabe72f92b88.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/8c4ca46fc1e4008f5a90fabe72f92b88.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/8c4ca46fc1e4008f5a90fabe72f92b88.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/8c4ca46fc1e4008f5a90fabe72f92b88.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNova-Light';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/842dbd395d12ce251a03727028b17d6e.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/842dbd395d12ce251a03727028b17d6e.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/842dbd395d12ce251a03727028b17d6e.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/842dbd395d12ce251a03727028b17d6e.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/7966d13ae10b3b322b5a786199815f7a.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/7966d13ae10b3b322b5a786199815f7a.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/7966d13ae10b3b322b5a786199815f7a.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/7966d13ae10b3b322b5a786199815f7a.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'ProximaNova-XBold';
+	src:
+		url('http://s.glbimg.com/es/ge/webfonts/proximanova-xbold-webfont.eot');
+	src:
+		url('http://s.glbimg.com/es/ge/webfonts/proximanova-xbold-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/es/ge/webfonts/proximanova-xbold-webfont.woff')
+		format('woff'),
+		url('http://s.glbimg.com/es/ge/webfonts/proximanova-xbold-webfont.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-Light';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/6b81e15db5e8e87203c1740727a9e9e1.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/6b81e15db5e8e87203c1740727a9e9e1.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/6b81e15db5e8e87203c1740727a9e9e1.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/6b81e15db5e8e87203c1740727a9e9e1.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-Black';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/404b9b1662cdde1c19d7f5a3eef44c2d.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/404b9b1662cdde1c19d7f5a3eef44c2d.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/404b9b1662cdde1c19d7f5a3eef44c2d.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/404b9b1662cdde1c19d7f5a3eef44c2d.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-LightItalic';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/35dbc2f465137e9f3e5591632d08bb2d.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/35dbc2f465137e9f3e5591632d08bb2d.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/35dbc2f465137e9f3e5591632d08bb2d.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/35dbc2f465137e9f3e5591632d08bb2d.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-BlackItalic';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/011cf9dfa1817de7503712ead3e11d8c.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/011cf9dfa1817de7503712ead3e11d8c.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/011cf9dfa1817de7503712ead3e11d8c.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/011cf9dfa1817de7503712ead3e11d8c.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-Italic';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/df2a1f15300bbcc2285ea32b487881ec.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/df2a1f15300bbcc2285ea32b487881ec.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/df2a1f15300bbcc2285ea32b487881ec.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/df2a1f15300bbcc2285ea32b487881ec.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-XboldItalic';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/7828ad5e02bf0d41b77f6e89461dc90d.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/7828ad5e02bf0d41b77f6e89461dc90d.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/7828ad5e02bf0d41b77f6e89461dc90d.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/7828ad5e02bf0d41b77f6e89461dc90d.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/5a3a1e122d9321a5614f3d0c98730857.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/5a3a1e122d9321a5614f3d0c98730857.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/5a3a1e122d9321a5614f3d0c98730857.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/5a3a1e122d9321a5614f3d0c98730857.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-Heavy';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/4c7a13804887871455d549a1e6f6c397.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/4c7a13804887871455d549a1e6f6c397.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/4c7a13804887871455d549a1e6f6c397.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/4c7a13804887871455d549a1e6f6c397.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-Bold';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/3cad43ecfc06fe9ba4f1b31b6e5c44db.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/3cad43ecfc06fe9ba4f1b31b6e5c44db.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/3cad43ecfc06fe9ba4f1b31b6e5c44db.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/3cad43ecfc06fe9ba4f1b31b6e5c44db.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-Medium';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/bd82f8a3ac385418180b5136a6849ca5.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/bd82f8a3ac385418180b5136a6849ca5.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/bd82f8a3ac385418180b5136a6849ca5.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/bd82f8a3ac385418180b5136a6849ca5.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-HeavyItalic';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/f8628f34ba02d4a97c9488e12d6b73f6.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/f8628f34ba02d4a97c9488e12d6b73f6.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/f8628f34ba02d4a97c9488e12d6b73f6.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/f8628f34ba02d4a97c9488e12d6b73f6.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-Xbold';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/3af55282d7c5ccd73e2c0463593c0ce1.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/3af55282d7c5ccd73e2c0463593c0ce1.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/3af55282d7c5ccd73e2c0463593c0ce1.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/3af55282d7c5ccd73e2c0463593c0ce1.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-BoldItalic';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/339674073baeb81d892babf5cdb3b90c.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/339674073baeb81d892babf5cdb3b90c.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/339674073baeb81d892babf5cdb3b90c.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/339674073baeb81d892babf5cdb3b90c.ttf')
+		format('truetype')
+}
+
+@font-face {
+	font-family: 'VolkswagenSerial-MediumItalic';
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/38b47d4fa27b3805c7e6f51372ab7ea2.eot');
+	src:
+		url('http://s.glbimg.com/po/fo/webfonts/38b47d4fa27b3805c7e6f51372ab7ea2.eot?#iefix')
+		format('embedded-opentype'),
+		url('http://s.glbimg.com/po/fo/webfonts/38b47d4fa27b3805c7e6f51372ab7ea2.woff')
+		format('woff'),
+		url('http://s.glbimg.com/po/fo/webfonts/38b47d4fa27b3805c7e6f51372ab7ea2.ttf')
+		format('truetype')
+}
+
+.widget-plantao {
+	border: 0
+}
+
+.widget-plantao .rss {
+	float: right;
+	margin: 13px 0 0;
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/icones/icoRss.gif') 0
+		0 no-repeat;
+	display: block;
+	height: 16px;
+	width: 16px
+}
+
+.widget-plantao .data {
+	margin-bottom: 0
+}
+
+.widget-plantao .widget-titulo {
+	border-top: 4px solid #DDD
+}
+
+.widget-plantao .widget-titulo strong {
+	color: #333;
+	float: left;
+	font-size: 1.666em;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+	padding: 11px 0 17px 0;
+	width: 70%
+}
+
+.widget-corpo-plantao .item-noticia-hora {
+	color: #999;
+	float: left;
+	font-size: 11px;
+	width: 42px;
+	padding-top: 2px
+}
+
+.widget-corpo-plantao-wide .item-noticia-hora {
+	width: 42px;
+	padding-top: 4px
+}
+
+.widget-corpo-plantao .item-noticia-chamada {
+	float: right;
+	width: 258px
+}
+
+.widget-corpo-plantao .lista-noticia-plantao .item-noticia-plantao {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/borderbottom.gif')
+		repeat-x scroll center top;
+	min-height: 50px;
+	padding: 12px 0 10px 0
+}
+
+.widget-corpo-plantao-wide .lista-noticia-plantao .item-noticia-plantao
+	{
+	padding: 15px 0 10px 0
+}
+
+.widget-corpo-plantao .lista-noticia-plantao .item-noticia-plantao br {
+	clear: both
+}
+
+.widget-corpo-plantao .lista-noticia-plantao .item-noticia-plantao:first-child
+	{
+	background: none
+}
+
+.widget-corpo-plantao .titulo {
+	display: block;
+	font-size: 1.166em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1.2em
+}
+
+.widget-corpo-plantao-wide .titulo {
+	margin-bottom: 3px
+}
+
+.widget-corpo-plantao-wide p {
+	margin-bottom: .35em
+}
+
+.widget-corpo-plantao .chapeu {
+	margin-bottom: 3px
+}
+
+.widget-corpo-plantao .lista-data-plantao .item-data-plantao p.data {
+	background-color: #F8F8F8;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	color: #868686;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 6px 0 7px 8px
+}
+
+.widget-corpo-plantao-wide .lista-data-plantao .item-data-plantao p.data
+	{
+	padding: 10px 0 11px 10px
+}
+
+.widget-plantao .widget-rodape {
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -0.04em;
+	padding: 9px 0;
+	border-top: 1px solid #DDD
+}
+
+.widget-corpo-plantao-wide {
+	margin-bottom: 5px !important
+}
+
+.widget-corpo-plantao-wide .item-noticia-chamada {
+	padding-left: 20px;
+	width: 558px
+}
+
+.widget-corpo-plantao-wide .titulo {
+	font-size: 1.5em
+}
+
+.widget-corpo-plantao-wide .subtitulo {
+	font-size: 1.166em
+}
+
+.widget-corpo-plantao-wide .item-noticia-thumbnail {
+	width: 90px
+}
+
+.item-noticia-thumbnail {
+	float: left;
+	position: relative;
+	margin: 0 10px 6px 0;
+	width: 60px;
+	overflow: hidden
+}
+
+.item-noticia-thumbnail span {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat;
+	width: 3px;
+	height: 3px;
+	position: absolute
+}
+
+.item-noticia-thumbnail span.canto-cd {
+	background-position: -3px 0;
+	top: 0;
+	right: 0
+}
+
+.item-noticia-thumbnail span.canto-re {
+	background-position: 0 -3px;
+	bottom: 0;
+	left: 0
+}
+
+.item-noticia-thumbnail span.canto-rd {
+	background-position: -3px -3px;
+	bottom: 0;
+	right: 0
+}
+
+.item-noticia-thumbnail .borda-interna:hover img {
+	margin: -3px !important
+}
+
+.item-noticia-thumbnail .borda-interna:hover {
+	border: 3px solid blue
+}
+
+.item-noticia-thumbnail .borda-interna {
+	overflow: hidden
+}
+
+.item-noticia-thumbnail .borda-interna,.item-noticia-thumbnail .borda-interna img
+	{
+	display: block
+}
+
+.widget-plantao .item-noticia-conteudo {
+	width: 100%
+}
+
+.widget-plantao .chamada-com-foto {
+	float: right;
+	min-width: 188px;
+	width: 188px
+}
+
+.widget-plantao .widget-corpo-plantao-wide .chamada-com-foto {
+	min-width: 453px;
+	width: 188px
+}
+
+.video-abas-triplo {
+	position: relative;
+	margin-bottom: 30px
+}
+
+.video-abas-triplo .conteudo {
+	border: 1px solid #DDD;
+	border-width: 0 1px 1px 1px;
+	margin-top: 2px
+}
+
+.video-abas-triplo .abas {
+	width: 100%
+}
+
+.video-abas-triplo .abas td {
+	background-color: #F7F7F7;
+	vertical-align: top;
+	border-right: 1px solid #DDD;
+	padding: 2px 0 0
+}
+
+.video-abas-triplo .abas td.ultimo {
+	border-right: none
+}
+
+.video-abas-triplo .abas td.active {
+	background-color: #FFF;
+	border-bottom: none
+}
+
+.video-abas-triplo .abas td .titulo-wrapper {
+	position: relative;
+	padding-top: 1px;
+	margin-top: -4px;
+	cursor: pointer;
+	border-bottom: 1px solid #DDD
+}
+
+.video-abas-triplo .abas td.active .titulo-wrapper {
+	padding-top: 0;
+	padding-bottom: 1px;
+	border-bottom: none
+}
+
+.video-abas-triplo .widget-video {
+	border: none;
+	margin-bottom: 0
+}
+
+.video-abas-triplo .widget-titulo {
+	border-top: 1px solid #DDD;
+	padding: 8px 8px 10px;
+	text-align: center
+}
+
+.video-abas-triplo .widget-titulo a {
+	color: #666;
+	font-size: .85em;
+	font-weight: normal;
+	letter-spacing: -0.03em;
+	border-bottom: none
+}
+
+.video-abas-triplo .active .widget-titulo {
+	border-bottom: none;
+	border-top: 2px solid #4E6E0B;
+	padding-bottom: 9px
+}
+
+.video-abas-triplo .active .widget-titulo a {
+	color: #363636;
+	font-weight: bold;
+	letter-spacing: 0
+}
+
+.video-abas-triplo .widget-titulo strong {
+	padding: 0;
+	width: auto;
+	float: none
+}
+
+.video-abas-triplo .videos li {
+	display: none
+}
+
+.video-abas-triplo .videos li li {
+	display: block
+}
+
+.video-abas-triplo .videos li.active {
+	display: block
+}
+
+.video-abas-triplo span.canto-te {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/cantos-aba-menu.png')
+		no-repeat scroll left top transparent;
+	left: -1px;
+	top: 1px
+}
+
+.video-abas-triplo span.canto-td {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/menu/cantos-aba-menu.png')
+		no-repeat scroll right top transparent;
+	right: -1px;
+	top: 1px
+}
+
+.video-abas-triplo .active span.canto-te,.video-abas-triplo .active span.canto-td
+	{
+	top: 0
+}
+
+.video-abas-triplo .active span.canto-te {
+	left: 0
+}
+
+.video-abas-triplo .active span.canto-td {
+	right: 0
+}
+
+.video-abas-triplo span.canto-re,.video-abas-triplo span.canto-rd {
+	display: block;
+	height: 3px;
+	width: 3px;
+	position: absolute;
+	z-index: 1
+}
+
+.video-abas-triplo span.canto-re {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat 0 -3px;
+	bottom: 0;
+	left: 0
+}
+
+.video-abas-triplo span.canto-rd {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/box/canto-foto-arredondado.png')
+		no-repeat -3px -3px;
+	bottom: 0;
+	right: 0
+}
+
+.video-abas-triplo span {
+	_display: none
+}
+
+.video-abas-triplo td span {
+	display: block;
+	height: 2px;
+	position: absolute;
+	width: 2px
+}
+
+.video-abas-triplo .widget .chamada-principal {
+	border-top: none
+}
+
+.video-abas-triplo .widget .chamada-rodape {
+	padding: 9px 11px 12px
+}
+
+.video-abas-triplo .widget .chamada-rodape a {
+	font-size: 1.12em;
+	letter-spacing: -0.01em
+}
+
+.video-abas-triplo .widget-video .chamada-principal .titulo {
+	font-size: 1.3em;
+	letter-spacing: -0.01em;
+	line-height: 1em;
+	margin-bottom: 2px
+}
+
+.widget-video .chamada-principal .chapeu {
+	margin-bottom: 4px
+}
+
+#board a {
+	color: #4e6e0b;
+	font-weight: bold
+}
+
+#board .box-cadastrar img {
+	display: none
+}
+
+#board .box-cadastrar a {
+	background: #4e6e0b
+		url('http://s.glbimg.com/es/ge/media/globoesporte/css/destaques/bt-participe.png')
+		no-repeat;
+	float: left;
+	height: 24px;
+	width: 69px
+}
+
+#board #abas li a#aba-editor img {
+	display: none
+}
+
+#board #abas li a#aba-editor {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/globoesporte/css/destaques/favicon.png')
+		no-repeat 6px 8px;
+	padding-left: 30px;
+	display: block
+}
+
+#board .novas-mensagens.btn-ativo #btn-atualizar {
+	background: #4e6e0b
+		url('http://s.glbimg.com/es/ge/media/globoesporte/css/destaques/bt_sprite_twitter_mensagens.png')
+		no-repeat 0 0
+}
+
+#board .novas-mensagens.btn-ativo #btn-atualizar:hover {
+	background: #4e6e0b
+		url('http://s.glbimg.com/es/ge/media/globoesporte/css/destaques/bt_sprite_twitter_mensagens.png')
+		no-repeat 0 -31px
+}
+
+#board .novas-mensagens.btn-ativo #btn-atualizar:focus {
+	background: #4e6e0b
+		url('http://s.glbimg.com/es/ge/media/globoesporte/css/destaques/bt_sprite_twitter_mensagens.png')
+		no-repeat 0 -62px
+}
+
+#widget-social {
+	height: 380px;
+	margin-bottom: 30px;
+	width: 300px
+}
+
+.ct-box-destaque-carrossel {
+	border-bottom: 1px dotted #D9D9D9;
+	margin-bottom: 19px;
+	padding-bottom: 1px
+}
+
+#globo_destaque_carrossel {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	height: 460px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	position: relative;
+	width: 620px
+}
+
+#globo_destaque_carrossel.carregando .globo-carrossel-passos,#globo_destaque_carrossel.carregando .globo-carrossel-navegacao,#globo_destaque_carrossel.carregando .globo-carrossel-thumbs-container
+	{
+	visibility: hidden
+}
+
+#globo_destaque_carrossel.carregando {
+	background: #F1F1F1
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/icone-loading.gif')
+		no-repeat center
+}
+
+#globo_destaque_carrossel .globo-carrossel-passos {
+	height: 390px;
+	position: relative;
+	width: 100%;
+	z-index: 30
+}
+
+#globo_destaque_carrossel .globo-carrossel-passos-compacto {
+	height: 349px
+}
+
+#globo_destaque_carrossel .globo-carrossel-passo {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 620px;
+	height: 390px;
+	overflow: hidden;
+	position: absolute
+}
+
+#globo_destaque_carrossel .globo-carrossel-info-extra {
+	bottom: -70px;
+	left: 0;
+	position: absolute;
+	z-index: 100
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li .chapeu-thumb {
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0,
+		rgba(0, 0, 0, 0.65) 79% );
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0
+		, 0, 0) ), color-stop(79%, rgba(0, 0, 0, 0.65) ) );
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0,
+		rgba(0, 0, 0, 0.65) 79% );
+	background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0,
+		rgba(0, 0, 0, 0.65) 79% );
+	background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0,
+		rgba(0, 0, 0, 0.65) 79% );
+	background: linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.65)
+		79% );
+	filter: progid : DXImageTransform.Microsoft.gradient ( startColorstr =
+		'#00000000', endColorstr = '#a6000000', GradientType = 0 );
+	-moz-border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+	clear: both;
+	color: #FFF;
+	display: block;
+	font-family: 'ProximaNova-Bold';
+	font-size: 10px;
+	height: 30px;
+	letter-spacing: -0.05em;
+	line-height: 35px;
+	padding: 0 10px;
+	position: absolute;
+	text-align: left;
+	text-transform: uppercase;
+	top: 38px;
+	width: 102px;
+	z-index: 100;
+	*left: 0
+}
+
+.ie #globo_destaque_carrossel .globo-carrossel-navegacao li .chapeu-thumb
+	{
+	letter-spacing: 0
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li.ultimo-item .chapeu-thumb
+	{
+	width: 104px;
+	-moz-border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px
+}
+
+#globo_destaque_carrossel .indice-pos-1 {
+	left: 0
+}
+
+#globo_destaque_carrossel .indice-pos-2 {
+	left: 124px
+}
+
+#globo_destaque_carrossel .indice-pos-3 {
+	left: 248px
+}
+
+#globo_destaque_carrossel .indice-pos-4 {
+	left: 372px
+}
+
+#globo_destaque_carrossel .indice-pos-5 {
+	left: 496px
+}
+
+#globo_destaque_carrossel .destaque-carrossel {
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	position: relative;
+	height: 390px;
+	width: 620px;
+	overflow: hidden
+}
+
+#globo_destaque_carrossel .globo-carrossel-sombra {
+	width: 620px;
+	height: 354px;
+	position: absolute;
+	z-index: 30;
+	display: block;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-collapse: collapse;
+	height: 388px;
+	width: 618px
+}
+
+#globo_destaque_carrossel .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-top-left .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-top-left-entrelinha .globo-carrossel-sombra
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/top_left.png')
+		no-repeat top left
+}
+
+#globo_destaque_carrossel .glb-hl-style-top-right .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-top-right-entrelinha .globo-carrossel-sombra
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/top_right.png')
+		no-repeat top right
+}
+
+#globo_destaque_carrossel .glb-hl-style-bottom-left .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-bottom-left-entrelinha .globo-carrossel-sombra
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/bottom_left.png')
+		no-repeat bottom left
+}
+
+#globo_destaque_carrossel .glb-hl-style-bottom-right .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-bottom-right-entrelinha .globo-carrossel-sombra
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/bottom_right.png')
+		no-repeat bottom right
+}
+
+#globo_destaque_carrossel .glb-hl-style-sem-impacto .globo-carrossel-sombra
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/bottom_top.png')
+		repeat-x bottom left
+}
+
+#globo_destaque_carrossel .glb-hl-style-top-left-sem-sombra .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-top-left-sem-sombra-entrelinha .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra-entrelinha .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-bottom-left-sem-sombra .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-bottom-left-sem-sombra-entrelinha .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra-entrelinha .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-sem-impacto-sem-sombra .globo-carrossel-sombra,#globo_destaque_carrossel .glb-hl-style-sem-impacto-sem-sombra-entrelinha .globo-carrossel-sombra
+	{
+	background: none
+}
+
+#globo_destaque_carrossel .globo-carrossel-foto {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+	height: 390px;
+	width: 620px
+}
+
+#globo_destaque_carrossel .globo-carrossel-titulo {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	z-index: 31;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px
+}
+
+#globo_destaque_carrossel .globo-carrossel-titulo-borda {
+	position: absolute;
+	overflow: hidden;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	width: 2px;
+	height: 100%;
+	_height: 600px;
+	-moz-border-radius: 2px 0 0 2px;
+	-webkit-border-radius: 2px 0 0 2px;
+	border-radius: 2px 0 0 2px
+}
+
+#globo_destaque_carrossel .globo-carrossel-titulo-fundo {
+	display: block;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	_height: 600px;
+	background-color: #131417;
+	opacity: .8;
+	filter: alpha(opacity = 80);
+	-moz-border-radius: 3px 2px 2px 3px;
+	-webkit-border-radius: 3px 2px 2px 3px;
+	border-radius: 3px 2px 2px 3px
+}
+
+#globo_destaque_carrossel .globo-carrossel-chapeu-texto,#globo_destaque_carrossel .globo-carrossel-titulo-texto,#globo_destaque_carrossel .globo-carrossel-subtitulo-texto
+	{
+	color: #FFF;
+	font-family: 'ProximaNova-XBold';
+	display: block;
+	margin: 0;
+	max-width: 520px;
+	padding: 0;
+	position: relative;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+	z-index: 2
+}
+
+.ie #globo_destaque_carrossel .globo-carrossel-chapeu-texto,.ie #globo_destaque_carrossel .globo-carrossel-titulo-texto,.ie #globo_destaque_carrossel .globo-carrossel-subtitulo-texto
+	{
+	width: 520px
+}
+
+#globo_destaque_carrossel .glb-hl-style-sem-impacto .globo-carrossel-titulo-texto,#globo_destaque_carrossel .glb-hl-style-sem-impacto-sem-sombra .globo-carrossel-titulo-texto
+	{
+	font-size: 28px;
+	letter-spacing: -1px;
+	line-height: 30px;
+	text-transform: none
+}
+
+#globo_destaque_carrossel .globo-carrossel-chapeu-texto {
+	font-size: 12px;
+	margin-bottom: 7px;
+	text-transform: uppercase
+}
+
+#globo_destaque_carrossel .globo-carrossel-titulo-texto {
+	font-size: 60px;
+	letter-spacing: -3px;
+	padding: 0;
+	text-transform: uppercase
+}
+
+#globo_destaque_carrossel .globo-carrossel-subtitulo-texto {
+	font-family: 'ProximaNova-Bold';
+	font-size: 16px;
+	width: 320px
+}
+
+.ie7 #globo_destaque_carrossel .globo-carrossel-subtitulo-texto,.ie8 #globo_destaque_carrossel .globo-carrossel-subtitulo-texto,.ie9 #globo_destaque_carrossel .globo-carrossel-subtitulo-texto
+	{
+	width: 325px
+}
+
+#globo_destaque_carrossel .glb-hl-style-top-left .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-top-left-entrelinha .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-top-left-sem-sombra .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-top-left-sem-sombra-entrelinha .globo-carrossel-titulo
+	{
+	left: 30px;
+	top: 30px
+}
+
+#globo_destaque_carrossel .glb-hl-style-top-right .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-top-right-entrelinha .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra-entrelinha .globo-carrossel-titulo
+	{
+	left: auto;
+	right: 30px;
+	text-align: right;
+	top: 30px
+}
+
+#globo_destaque_carrossel .glb-hl-style-bottom-left .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-bottom-left-entrelinha .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-bottom-left-sem-sombra .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-bottom-left-sem-sombra-entrelinha .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-sem-impacto .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-sem-impacto-sem-sombra .globo-carrossel-titulo
+	{
+	bottom: 60px;
+	left: 30px;
+	top: auto
+}
+
+#globo_destaque_carrossel .glb-hl-style-bottom-right .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-bottom-right-entrelinha .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra .globo-carrossel-titulo,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra-entrelinha .globo-carrossel-titulo
+	{
+	bottom: 60px;
+	left: auto;
+	right: 30px;
+	text-align: right;
+	top: auto
+}
+
+#globo_destaque_carrossel .glb-hl-style-top-right .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-top-right-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra-entrelinha .globo-carrossel-subtitulo-texto
+	{
+	float: right
+}
+
+#globo_destaque_carrossel .glb-hl-style-top-left-entrelinha .globo-carrossel-titulo-texto,#globo_destaque_carrossel .glb-hl-style-top-left-sem-sombra-entrelinha .globo-carrossel-titulo-texto,#globo_destaque_carrossel .glb-hl-style-top-right-entrelinha .globo-carrossel-titulo-texto,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra-entrelinha .globo-carrossel-titulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-left-entrelinha .globo-carrossel-titulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-left-sem-sombra-entrelinha .globo-carrossel-titulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right-entrelinha .globo-carrossel-titulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra-entrelinha .globo-carrossel-titulo-texto
+	{
+	line-height: 50px
+}
+
+#globo_destaque_carrossel .glb-hl-style-top-left-entrelinha .globo-carrossel-chapeu-texto,#globo_destaque_carrossel .glb-hl-style-top-left-sem-sombra-entrelinha .globo-carrossel-chapeu-texto,#globo_destaque_carrossel .glb-hl-style-top-right-entrelinha .globo-carrossel-chapeu-texto,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra-entrelinha .globo-carrossel-chapeu-texto,#globo_destaque_carrossel .glb-hl-style-bottom-left-entrelinha .globo-carrossel-chapeu-texto,#globo_destaque_carrossel .glb-hl-style-bottom-left-sem-sombra-entrelinha .globo-carrossel-chapeu-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right-entrelinha .globo-carrossel-chapeu-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra-entrelinha .globo-carrossel-chapeu-texto
+	{
+	margin-bottom: 5px
+}
+
+#globo_destaque_carrossel .glb-hl-style-top-left-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-top-left-sem-sombra-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-top-right-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-left-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-left-sem-sombra-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right-entrelinha .globo-carrossel-subtitulo-texto,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra-entrelinha .globo-carrossel-subtitulo-texto
+	{
+	margin-top: 5px
+}
+
+#globo_destaque_carrossel .globo-carrossel-titulo-seta {
+	width: 11px;
+	height: 17px;
+	z-index: 2;
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	margin-top: -7px;
+	background-repeat: no-repeat;
+	background-image:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/sprite1.png');
+	background-position: 0 -12px;
+	*display: none
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao {
+	border: 0 none;
+	bottom: 0;
+	display: block;
+	height: 68px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 620px;
+	z-index: 100;
+	*z-index: 9999;
+	zoom: 1
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	margin: 0 2px 0 0;
+	position: relative;
+	height: 68px;
+	width: 122px;
+	float: left;
+	overflow: hidden;
+	*z-index: 9999
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li.hover {
+	overflow: visible
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li.ultimo-item {
+	margin-right: 0;
+	width: 124px
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li .mask-mouseover
+	{
+	bottom: 68px;
+	height: 90px;
+	overflow: hidden;
+	position: absolute;
+	width: 122px;
+	opacity: 0;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+	-moz-box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+	*left: 0;
+	*opacity: 1;
+	*display: none
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li.ultimo-item .mask-mouseover
+	{
+	width: 124px
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li.hover .mask-mouseover
+	{
+	opacity: 1;
+	*display: block
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li.lista-atual .mask-mouseover
+	{
+	opacity: 0;
+	display: none
+}
+
+#globo_destaque_carrossel .globo-carrossel-thumbs .ultimo-thumb {
+	margin-right: 0
+}
+
+#globo_destaque_carrossel .ultimo-thumb .globo-carrossel-thumb-content {
+	width: 124px
+}
+
+#globo_destaque_carrossel .nav-itens-4 li,#globo_destaque_carrossel .nav-itens-4 li .mask-mouseover,#globo_destaque_carrossel .thumb-itens-4 .globo-carrossel-thumb-content,#globo_destaque_carrossel .thumb-itens-4 .globo-carrossel-thumb img
+	{
+	width: 153px
+}
+
+#globo_destaque_carrossel .nav-itens-4 li .chapeu-thumb {
+	width: 133px
+}
+
+#globo_destaque_carrossel .nav-itens-4 li .mask-mouseover a {
+	width: 143px
+}
+
+#globo_destaque_carrossel .nav-itens-4 li.ultimo-item,#globo_destaque_carrossel .nav-itens-4 li.ultimo-item .mask-mouseover,#globo_destaque_carrossel .thumb-itens-4 div.ultimo-thumb,#globo_destaque_carrossel .thumb-itens-4 div.ultimo-thumb .globo-carrossel-thumb-content,#globo_destaque_carrossel .thumb-itens-4 div.ultimo-thumb .globo-carrossel-thumb-content img
+	{
+	margin-right: 0;
+	width: 155px
+}
+
+#globo_destaque_carrossel .nav-itens-4 li.ultimo-item .chapeu-thumb {
+	width: 135px
+}
+
+#globo_destaque_carrossel .nav-itens-4 li.ultimo-item .mask-mouseover a
+	{
+	width: 145px
+}
+
+#globo_destaque_carrossel .nav-itens-3 li,#globo_destaque_carrossel .nav-itens-3 li .mask-mouseover,#globo_destaque_carrossel .thumb-itens-3 .globo-carrossel-thumb-content,#globo_destaque_carrossel .thumb-itens-3 .globo-carrossel-thumb img
+	{
+	width: 205px
+}
+
+#globo_destaque_carrossel .nav-itens-3 li .chapeu-thumb {
+	width: 185px
+}
+
+#globo_destaque_carrossel .nav-itens-3 li.hover .mask-mouseover {
+	height: 70px !important
+}
+
+#globo_destaque_carrossel .nav-itens-3 li.hover .mask-mouseover a {
+	height: 60px !important
+}
+
+#globo_destaque_carrossel .nav-itens-3 li.hover .mask-mouseover a span {
+	height: 50px !important
+}
+
+#globo_destaque_carrossel .nav-itens-3 li .mask-mouseover a {
+	width: 195px
+}
+
+#globo_destaque_carrossel .nav-itens-3 li.ultimo-item,#globo_destaque_carrossel .nav-itens-3 li.ultimo-item .mask-mouseover,#globo_destaque_carrossel .thumb-itens-3 div.ultimo-thumb,#globo_destaque_carrossel .thumb-itens-3 div.ultimo-thumb .globo-carrossel-thumb-content,#globo_destaque_carrossel .thumb-itens-3 div.ultimo-thumb .globo-carrossel-thumb-content img
+	{
+	margin-right: 0;
+	width: 206px
+}
+
+#globo_destaque_carrossel .nav-itens-3 li.ultimo-item .chapeu-thumb {
+	width: 186px
+}
+
+#globo_destaque_carrossel .nav-itens-3 li.ultimo-item .mask-mouseover a
+	{
+	width: 196px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li {
+	height: 70px
+}
+
+#globo_destaque_carrossel .thumb-itens-2 .globo-carrossel-thumb {
+	background-color: #7C7C7C;
+	height: 68px
+}
+
+#globo_destaque_carrossel .thumb-itens-2 .thumb-hover,#globo_destaque_carrossel .thumb-itens-2 .thumb-atual
+	{
+	background-color: #3e831e;
+	border: none;
+	padding: 0
+}
+
+#globo_destaque_carrossel .thumb-itens-2 .thumb-hover .globo-carrossel-thumb-content,#globo_destaque_carrossel .thumb-itens-2 .thumb-atual .globo-carrossel-thumb-content
+	{
+	border: none;
+	background: #3e831e
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/seta-foto-selecionada-topo.gif')
+		no-repeat 160px center;
+	margin-left: -17px;
+	padding-right: 14px
+}
+
+#globo_destaque_carrossel .thumb-itens-2 .thumb-hover .globo-carrossel-thumb-content img,#globo_destaque_carrossel .thumb-itens-2 .thumb-atual .globo-carrossel-thumb-content img
+	{
+	border-right: 3px solid #326918;
+	margin-left: -3px !important
+}
+
+#globo_destaque_carrossel .nav-itens-2 li,#globo_destaque_carrossel .thumb-itens-2 .globo-carrossel-thumb
+	{
+	background-image: none;
+	width: 309px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li .mask-mouseover,#globo_destaque_carrossel .thumb-itens-2 .globo-carrossel-thumb-content,#globo_destaque_carrossel .thumb-itens-2 .globo-carrossel-thumb img
+	{
+	width: 155px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li.lista-atual .mask-mouseover,#globo_destaque_carrossel .nav-itens-2 li .mask-mouseover
+	{
+	display: block;
+	opacity: 1
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao li.hover .mask-mouseover
+	{
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	bottom: 66px;
+	height: 90px;
+	right: 0
+}
+
+#globo_destaque_carrossel li.lista-atual .mask-mouseover {
+	bottom: 68px;
+	height: 90px /*!important*/
+}
+
+#globo_destaque_carrossel li.lista-atual .mask-mouseover {
+	bottom: 0
+}
+
+#globo_destaque_carrossel .nav-itens-2 li.hover .mask-mouseover,#globo_destaque_carrossel .nav-itens-2 li .mask-mouseover
+	{
+	bottom: 2px;
+	height: 68px;
+	right: 0
+}
+
+#globo_destaque_carrossel .nav-itens-2 li.lista-atual .mask-mouseover {
+	bottom: 0
+}
+
+#globo_destaque_carrossel .thumb-itens-2 .globo-carrossel-thumb img {
+	margin: -13px 0 0 0
+}
+
+#globo_destaque_carrossel .nav-itens-2 li .chapeu-thumb {
+	width: 135px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li .mask-mouseover {
+	-moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0);
+	-webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, 0);
+	box-shadow: 0 -2px 3px rgba(0, 0, 0, 0);
+	*left: auto;
+	*right: 0
+}
+
+#globo_destaque_carrossel .nav-itens-2 li .mask-mouseover a {
+	background: none !important;
+	top: 0;
+	height: 58px;
+	width: 145px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li.ultimo-item {
+	width: 309px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li.ultimo-item .mask-mouseover,#globo_destaque_carrossel .thumb-itens-2 div.ultimo-thumb
+	{
+	margin-right: 0;
+	width: 309px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li.ultimo-item .mask-mouseover,#globo_destaque_carrossel .thumb-itens-2 div.ultimo-thumb .globo-carrossel-thumb-content,#globo_destaque_carrossel .thumb-itens-2 div.ultimo-thumb .globo-carrossel-thumb-content img
+	{
+	width: 155px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li .chapeu-thumb,#globo_destaque_carrossel .nav-itens-2 li.lista-atual .chapeu-thumb,#globo_destaque_carrossel .nav-itens-2 li.hover .chapeu-thumb,#globo_destaque_carrossel .nav-itens-2 li.ultimo-item .chapeu-thumb
+	{
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out
+}
+
+#globo_destaque_carrossel .nav-itens-2 li.ultimo-item .chapeu-thumb {
+	width: 135px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li.lista-atual .chapeu-thumb,#globo_destaque_carrossel .nav-itens-2 li.hover .chapeu-thumb
+	{
+	width: 115px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li.ultimo-item .mask-mouseover a
+	{
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	height: 58px;
+	width: 145px
+}
+
+#globo_destaque_carrossel .nav-itens-2 li .mask-mouseover a,#globo_destaque_carrossel .nav-itens-2 li.ultimo-item .mask-mouseover a
+	{
+	padding-left: 0;
+	padding-top: 0
+}
+
+#globo_destaque_carrossel .nav-itens-2 li .mask-mouseover a span,#globo_destaque_carrossel .nav-itens-2 li.ultimo-item .mask-mouseover a span
+	{
+	border-bottom: medium none;
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	height: 50px !important;
+	margin-left: 0;
+	padding-left: 10px
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao a {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	color: #fff;
+	display: block;
+	font-family: 'ProximaNova-Regular';
+	font-size: 13px;
+	font-weight: lighter;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+	height: 80px;
+	overflow: hidden;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	width: 112px
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao a.destaque-ativo {
+	top: 0;
+	z-index: 20
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao .ultimo-item a {
+	width: 114px
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao-item-bg {
+	opacity: .5;
+	filter: alpha(opacity = 50);
+	background-color: #000;
+	z-index: 1;
+	width: 122px
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao a span {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	display: block;
+	font-size: 13px;
+	height: 70px;
+	line-height: 16px;
+	margin: 10px 10px 0;
+	word-wrap: break-word
+}
+
+#globo_destaque_carrossel .globo-carrossel-thumbs-container {
+	margin: 2px 0 0 0;
+	overflow: hidden;
+	position: relative;
+	*position: absolute;
+	*z-index: 1
+}
+
+#globo_destaque_carrossel .globo-carrossel-thumb {
+	background: #3e831e
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/seta-foto-selecionada.gif')
+		no-repeat center 4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	float: left;
+	height: 68px;
+	margin: 0 2px 0 0;
+	padding: 0;
+	z-index: 31;
+	display: block;
+	overflow: hidden
+}
+
+#globo_destaque_carrossel li.lista-atual,#globo_destaque_carrossel li.lista-atual .mask-mouseover a,#globo_destaque_carrossel li.lista-atual .mask-mouseover a span,#globo_destaque_carrossel .thumb-atual,#globo_destaque_carrossel .thumb-atual .globo-carrossel-thumb-content
+	{
+	cursor: default !important;
+	height: 68px
+}
+
+#globo_destaque_carrossel li.lista-atual {
+	z-index: 9999
+}
+
+#globo_destaque_carrossel .thumb-hover,#globo_destaque_carrossel .thumb-atual
+	{
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	height: 55px;
+	padding-top: 13px
+}
+
+#globo_destaque_carrossel .thumb-hover .globo-carrossel-thumb-content,#globo_destaque_carrossel .thumb-atual .globo-carrossel-thumb-content
+	{
+	border-top: 3px solid #3a6a38
+}
+
+#globo_destaque_carrossel .globo-carrossel-thumb-content {
+	background: #000;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	border-top: 0 solid #3a6a38;
+	width: 122px;
+	height: 68px;
+	overflow: hidden;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 122px
+}
+
+#globo_destaque_carrossel .globo-carrossel-thumb img {
+	margin: -13px auto 0 auto;
+	display: block;
+	width: 125px
+}
+
+#globo_destaque_carrossel .qtn-5-thumbs .globo-carrossel-thumb img {
+	margin: 0 auto
+}
+
+#globo_destaque_carrossel .globo-carrossel-thumb p {
+	font-size: 13px;
+	line-height: 16px;
+	color: #fff;
+	margin: 8px 0 5px 0
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/bg_vejatambem.png')
+		repeat 0;
+	-moz-border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+	bottom: 0;
+	height: 23px;
+	overflow: hidden;
+	width: 610px;
+	padding: 5px;
+	position: absolute;
+	left: 0;
+	z-index: 999;
+	display: none !important
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais ul {
+	height: 23px;
+	line-height: 23px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais p {
+	color: #AAACAD;
+	float: left;
+	font-size: 10px;
+	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
+	overflow: hidden;
+	margin: 0 10px 0 5px;
+	padding: 0;
+	width: 90px
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais p span {
+	background: #3f831e;
+	display: block;
+	float: left;
+	height: 16px;
+	margin: 3px 7px 0 0;
+	width: 2px
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais li {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/destaques/carrossel/dots.png')
+		no-repeat left 3px;
+	color: #aaacad;
+	font-size: 12px;
+	float: left;
+	width: 500px
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais-duplo li {
+	width: 248px
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais-esq,#globo_destaque_carrossel .globo-carrossel-adicionais-dir
+	{
+	width: 257px
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais-dir {
+	padding-left: 1px
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais li a,#globo_destaque_carrossel .globo-carrossel-adicionais li span
+	{
+	display: block;
+	font-family: 'ProximaNova-XBold';
+	opacity: .8;
+	filter: alpha(opacity = 80);
+	padding: 0 10px;
+	color: #FFF;
+	-webkit-transition: opacity .1s ease-in-out;
+	-moz-transition: opacity .1s ease-in-out;
+	-o-transition: opacity .1s ease-in-out;
+	transition: opacity .1s ease-in-out
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais li a:hover {
+	opacity: 1;
+	filter: alpha(opacity = 100)
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais li .chapeu-thumb {
+	display: none
+}
+
+#globo_destaque_carrossel .globo-carrossel-adicionais li a:hover {
+	opacity: 1;
+	filter: alpha(opacity = 100)
+}
+
+#globo_destaque_carrossel .globo-carrossel-navegacao a *,#globo_destaque_carrossel .globo-carrossel-titulo *
+	{
+	cursor: pointer
+}
+
+#globo_destaque_carrossel .globo-carrossel-invisivel {
+	display: none
+}
+
+#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-bottom-left .globo-carrossel-titulo,#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-bottom-left-entrelinha .globo-carrossel-titulo,#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-bottom-left-sem-sombra .globo-carrossel-titulo,#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-bottom-left-sem-sombra-entrelinha .globo-carrossel-titulo,#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-sem-impacto .globo-carrossel-titulo,#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-sem-impacto-sem-sombra .globo-carrossel-titulo,#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-bottom-right .globo-carrossel-titulo,#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-bottom-right-entrelinha .globo-carrossel-titulo,#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-bottom-right-sem-sombra .globo-carrossel-titulo,#globo_destaque_carrossel .sem-veja-mais .glb-hl-style-bottom-right-sem-sombra-entrelinha .globo-carrossel-titulo
+	{
+	bottom: 30px
+}
+
+#globo_destaque_carrossel .sem-veja-mais .globo-carrossel-sombra {
+	height: 388px
+}
+
+#globo_destaque_carrossel .sombra-ie {
+	color: #000;
+	left: 2px;
+	position: absolute;
+	top: 2px;
+	z-index: -1
+}
+
+#globo_destaque_carrossel .glb-hl-style-bottom-right .sombra-ie,#globo_destaque_carrossel .glb-hl-style-top-right .sombra-ie,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra .sombra-ie,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra .sombra-ie,#globo_destaque_carrossel .glb-hl-style-bottom-right-entrelinha .sombra-ie,#globo_destaque_carrossel .glb-hl-style-top-right-entrelinha .sombra-ie,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra-entrelinha .sombra-ie,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra-entrelinha .sombra-ie
+	{
+	left: auto;
+	right: 2px;
+	text-align: right
+}
+
+#globo_destaque_carrossel
+ 
+.glb-hl-style-bottom-right
+ 
+.globo-carrossel-chapeu-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-bottom-right-entrelinha
+ 
+.globo-carrossel-chapeu-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-bottom-right-sem-sombra
+ 
+.globo-carrossel-chapeu-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-bottom-right-sem-sombra-entrelinha
+ 
+.globo-carrossel-chapeu-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-top-right
+ 
+.globo-carrossel-chapeu-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-top-right-entrelinha
+ 
+.globo-carrossel-chapeu-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-top-right-sem-sombra
+ 
+.globo-carrossel-chapeu-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-top-right-sem-sombra-entrelinha
+ 
+.globo-carrossel-chapeu-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-bottom-right
+ 
+.globo-carrossel-titulo-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-bottom-right-entrelinha
+ 
+.globo-carrossel-titulo-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-bottom-right-sem-sombra
+ 
+.globo-carrossel-titulo-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-bottom-right-sem-sombra-entrelinha
+ 
+.globo-carrossel-titulo-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-top-right
+ 
+.globo-carrossel-titulo-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-top-right-entrelinha
+ 
+.globo-carrossel-titulo-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-top-right-sem-sombra
+ 
+.globo-carrossel-titulo-texto
+ 
+.sombra-ie
+,
+#globo_destaque_carrossel
+ 
+.glb-hl-style-top-right-sem-sombra-entrelinha
+ 
+.globo-carrossel-titulo-texto
+ 
+.sombra-ie
+,
+{
+width
+:
+520px
+}
+#globo_destaque_carrossel .glb-hl-style-bottom-right .globo-carrossel-subtitulo-texto .sombra-ie,#globo_destaque_carrossel .glb-hl-style-bottom-right-entrelinha .globo-carrossel-subtitulo-texto .sombra-ie,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra .globo-carrossel-subtitulo-texto .sombra-ie,#globo_destaque_carrossel .glb-hl-style-bottom-right-sem-sombra-entrelinha .globo-carrossel-subtitulo-texto .sombra-ie,#globo_destaque_carrossel .glb-hl-style-top-right .globo-carrossel-subtitulo-texto .sombra-ie,#globo_destaque_carrossel .glb-hl-style-top-right-entrelinha .globo-carrossel-subtitulo-texto .sombra-ie,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra .globo-carrossel-subtitulo-texto .sombra-ie,#globo_destaque_carrossel .glb-hl-style-top-right-sem-sombra-entrelinha .globo-carrossel-subtitulo-texto .sombra-ie
+	{
+	width: 320px
+}
+
+#globo_destaque_carrossel .cor-produto-background {
+	background-color: #3e831e !important
+}
+
+#glb-topo {
+	background:
+		url('http://s.glbimg.com/es/ge/media/libby/header_produtos/img/bg_header.png')
+		bottom repeat-x
+}
+
+#glb-topo .cabecalho-produto {
+	height: 60px;
+	min-height: 60px;
+	padding-top: 37px
+}
+
+#glb-menu .glb-conteudo {
+	position: relative;
+	bottom: -3px
+}
+
+#glb-menu ul.menu-itens {
+	background: none;
+	border-top: 1px solid #d9d9d9;
+	font-size: 12px;
+	height: auto
+}
+
+#glb-menu .menu-borda-baixo {
+	font-size: 1px;
+	margin: 0 10px;
+	height: 4px;
+	width: 940px;
+	overflow: hidden;
+	-moz-border-radius: 0 0 1px 1px;
+	-webkit-border-radius: 0 0 1px 1px;
+	border-radius: 0 0 1px 1px
+}
+
+#glb-menu .menu-borda-baixo1 {
+	height: 1px;
+	width: 100%;
+	font-size: 1px;
+	overflow: hidden;
+	background: #000;
+	opacity: .1;
+	filter: alpha(opacity = 10)
+}
+
+#glb-menu ul.menu-itens:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden
+}
+
+#glb-menu ul.menu-itens a,#glb-menu ul.menu-itens li {
+	color: #333
+}
+
+#glb-menu ul li.menu-item-li {
+	float: left;
+	position: relative;
+	z-index: 101;
+	background: none
+}
+
+#glb-menu .menu-item-a {
+	background:
+		url('http://s.glbimg.com/es/ge/media/libby/header_produtos/img/sprite_menu.png')
+		-969px -976px no-repeat;
+	display: block;
+	padding: 11px 11px 11px 10px;
+	height: auto;
+	float: left
+}
+
+#glb-menu span.menu-item-a {
+	cursor: default
+}
+
+#glb-menu a.menu-item-a:hover {
+	border-style: solid;
+	border-width: 1px 0 0 0;
+	margin-top: -1px
+}
+
+#glb-menu .menu-item-has-submenu a.menu-item-a:hover {
+	border: 0;
+	margin-top: 0;
+	color: #333
+}
+
+#glb-menu .menu-item-li-first .menu-item-a {
+	background: none;
+	padding-left: 0
+}
+
+#glb-menu .menu-item-a img {
+	padding: 6px 0 0 4px;
+	vertical-align: top
+}
+
+#glb-menu .menu-item-seta {
+	background:
+		url('http://s.glbimg.com/es/ge/media/libby/header_produtos/img/sprite_menu.png')
+		right -948px no-repeat;
+	padding-right: 14px
+}
+
+#glb-menu ul li.menu-item-li:hover {
+	z-index: 102
+}
+
+#glb-menu ul li.menu-item-li:hover .submenu {
+	visibility: visible;
+	opacity: 1
+}
+
+#glb-menu .menu-item-li-first .submenu {
+	left: -15px;
+	_left: -5px
+}
+
+#glb-menu .submenu {
+	left: -5px;
+	position: absolute;
+	top: 25px;
+	z-index: 102;
+	width: 242px;
+	visibility: hidden;
+	opacity: 0
+}
+
+#glb-menu .conteudo-subitens,#glb-menu .conteudo-subitens ul {
+	width: 232px
+}
+
+#glb-menu .submenu-2colunas {
+	width: 495px
+}
+
+#glb-menu .submenu-2colunas .conteudo-subitens {
+	width: 485px
+}
+
+#glb-menu .submenu-3colunas {
+	width: 728px
+}
+
+#glb-menu .submenu-3colunas .conteudo-subitens {
+	width: 718px
+}
+
+#glb-menu .submenu-4colunas {
+	width: 961px
+}
+
+#glb-menu .submenu-4colunas .conteudo-subitens {
+	width: 951px
+}
+
+#glb-menu .submenu-aba {
+	display: inline-block;
+	position: absolute;
+	overflow: hidden;
+	top: -31px;
+	border: 0;
+	height: auto;
+	left: 0;
+	margin-top: 0;
+	padding: 0;
+	z-index: 102;
+	letter-spacing: inherit;
+	background: none
+}
+
+#glb-menu .submenu-aba-n1 {
+	background-position: 0 0;
+	background-repeat: repeat;
+	height: 36px;
+	float: left
+}
+
+#glb-menu .submenu-aba-n2 {
+	background-position: right 36px;
+	background-repeat: repeat;
+	float: left;
+	height: 19px;
+	margin-left: 8px;
+	padding: 17px 16px 0 7px
+}
+
+#glb-menu span.submenu-aba-n1 {
+	cursor: default
+}
+
+#glb-menu a.submenu-aba-n1 {
+	cursor: pointer
+}
+
+#glb-menu .submenu-aba-seta {
+	background:
+		url('http://s.glbimg.com/es/ge/media/libby/header_produtos/img/sprite_menu.png')
+		right -948px no-repeat;
+	padding-right: 14px
+}
+
+#glb-menu .submenu-aba img {
+	margin-left: 3px;
+	vertical-align: middle
+}
+
+#glb-menu .menu-canto-te,#glb-menu .menu-canto-re,#glb-menu .menu-canto-td,#glb-menu .menu-canto-rd
+	{
+	background-image:
+		url('http://s.glbimg.com/es/ge/media/libby/header_produtos/img/sprite_menu.png');
+	background-repeat: no-repeat
+}
+
+#glb-menu .menu-canto-te,#glb-menu .menu-canto-re {
+	position: absolute;
+	left: 0;
+	height: 8px;
+	width: 8px;
+	font-size: 1px;
+	overflow: hidden
+}
+
+#glb-menu .menu-canto-rd,#glb-menu .menu-canto-td {
+	height: 8px;
+	margin-left: 8px;
+	font-size: 1px;
+	overflow: hidden
+}
+
+#glb-menu .menu-canto-te {
+	top: 0;
+	background-position: left -873px
+}
+
+#glb-menu .menu-canto-td {
+	background-position: right 0
+}
+
+#glb-menu .menu-canto-re {
+	bottom: 0;
+	background-position: -0 -855px
+}
+
+#glb-menu .menu-canto-rd {
+	background-position: right -855px
+}
+
+#glb-menu .conteudo-subitens-bg,#glb-menu .conteudo-subitens-bg2 {
+	overflow: hidden;
+	background-image:
+		url('http://s.glbimg.com/es/ge/media/libby/header_produtos/img/sprite_menu.png');
+	background-repeat: repeat;
+	width: 100%
+}
+
+#glb-menu .conteudo-subitens-bg {
+	background-position: 0 -8px
+}
+
+#glb-menu .conteudo-subitens-bg2 {
+	background-position: right -8px
+}
+
+#glb-menu .conteudo-subitens {
+	background-color: #fff;
+	color: #444;
+	font-size: 15px;
+	padding: 15px 0;
+	border: 0;
+	margin: 0 5px;
+	overflow: hidden
+}
+
+#glb-menu .conteudo-subitens ul {
+	padding: 0;
+	overflow: hidden;
+	display: block;
+	float: left;
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: #ccc;
+	margin-left: -1px;
+	background-color: #fff
+}
+
+#glb-menu .conteudo-subitens ul.last {
+	border-right: 0
+}
+
+#glb-menu .conteudo-subitens ul a:hover {
+	border-width: 0 0 0 3px;
+	border-style: solid;
+	background: none
+}
+
+#glb-menu ul.menu-itens li.submenu-item {
+	margin-top: 6px;
+	overflow: hidden;
+	width: 100%;
+	background: none
+}
+
+#glb-menu ul.menu-itens li.submenu-item:first-child {
+	margin-top: 0
+}
+
+#glb-menu .submenu-item a,#glb-menu .submenu-item span {
+	display: block;
+	padding: 2px 0 2px 17px;
+	border-left: 3px solid #fff
+}
+
+#glb-menu .submenu-item span {
+	cursor: default
+}
+
+#glb-menu .submenu-item a * {
+	cursor: pointer
+}
+
+#glb-menu ul.menu-itens .submenu ul a strong {
+	padding-right: 7px
+}
+
+#glb-menu ul.menu-itens .submenu .link-direto a {
+	padding: 2px 0 2px 17px
+}
+
+#glb-menu .agrupador-titulo {
+	font-weight: 900
+}
+
+#glb-menu .agrupador-titulo span {
+	display: inline;
+	padding: 0
+}
+
+#glb-menu .menu-subitens-interno {
+	width: 100%;
+	overflow: hidden
+}
+
+#glb-menu div.menu-subitens-interno ul {
+	width: 100%;
+	border: 0;
+	margin: 0;
+	overflow: hidden
+}
+
+#glb-menu div.menu-subitens-interno li {
+	margin-top: 2px;
+	background:
+		url('http://s.glbimg.com/es/ge/media/libby/header_produtos/img/sprite_menu.png')
+		no-repeat -947px -902px;
+	width: 100%
+}
+
+#glb-menu div.menu-subitens-interno a {
+	padding-left: 28px
+}
+
+#glb-menu ul li.menu-item-especial {
+	float: right
+}
+
+#glb-menu .menu-item-esq .menu-item-seta,#glb-menu .menu-item-esq .submenu-aba-seta
+	{
+	font-weight: 100
+}
+
+#glb-menu .menu-item-especial .menu-item-a {
+	background-position: right -976px;
+	font-weight: 900
+}
+
+#glb-menu .menu-item-esq.menu-item-li-first .menu-item-a {
+	padding-left: 10px;
+	padding-right: 0;
+	_padding-right: 10px
+}
+
+#glb-menu .menu-item-esq .submenu {
+	left: auto;
+	right: -4px
+}
+
+#glb-menu .menu-item-esq.menu-item-li-first .submenu {
+	right: -15px;
+	_right: -5px
+}
+
+#glb-menu .menu-item-esq .submenu-aba {
+	right: 0;
+	_right: -1px;
+	left: auto
+}
+
+#glb-menu .menu-item-esq .menu-canto-te {
+	background-position: left 0
+}
+
+#glb-menu .menu-item-esq .menu-canto-td {
+	background-position: right -873px
+}
+
+#glb-menu .menu-item-esq .submenu-aba-n2 {
+	padding: 17px 15px 0 7px
+}
+
+#glb-topo .cabecalho-produto .marca-produto {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/logo-globoesporte.gif')
+		no-repeat scroll left center;
+	width: 80px;
+	height: 85px
+}
+
+#glb-topo .cabecalho-home {
+	padding: 21px 0 0 2px
+}
+
+#glb-topo .cabecalho-home .marca-produto {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/logo-globoesporte-home.png')
+		no-repeat scroll left center;
+	height: 40px;
+	width: 265px
+}
+
+#glb-topo .cabecalho-home #busca-padrao {
+	margin-top: 0
+}
+
+#glb-topo .cabecalho-internas {
+	height: 75px;
+	padding: 10px 0 0 0
+}
+
+#glb-topo .cabecalho-internas .marca-produto {
+	background: #4b6c09
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/logo-globoesporte-internas.png')
+		no-repeat scroll left center;
+	height: 60px;
+	width: 80px
+}
+
+#glb-topo .cabecalho-internas #busca-padrao {
+	margin-top: 15px
+}
+
+#glb-topo .cabecalho-produto .formato-comercial {
+	height: 64px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	right: 310px;
+	top: 25px;
+	width: 92px
+}
+
+#glb-topo .cabecalho-produto #busca-padrao {
+	float: right;
+	margin-top: 3px !important
+}
+
+#glb-topo .cabecalho-internas #busca-padrao {
+	margin-top: 18px !important
+}
+
+#glb-topo .cabecalho-produto #busca-padrao button {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/bg-btBuscar-globoesporte.jpg')
+		no-repeat scroll left top
+}
+
+#glb-topo .cabecalho-produto #busca-padrao button:hover {
+	background-position: 0 -38px
+}
+
+#glb-topo .cabecalho-produto .editoria {
+	margin-top: 0;
+	width: 350px;
+	height: 45px
+}
+
+#glb-topo .cabecalho-internas .editoria {
+	margin-top: 10px
+}
+
+#glb-topo .cabecalho-produto .editoria span {
+	color: #555;
+	font-size: 2.5em;
+	letter-spacing: -0.06em;
+	line-height: 42px;
+	padding-left: 19px;
+	background-color: #ff0
+}
+
+#glb-topo .cabecalho-produto .editoria a {
+	color: #555
+}
+
+.glb-grid-12 .box-central-jogos {
+	margin: 0
+}
+
+.glb-conteudo {
+	*position: relative
+}
+
+.glb-mosaico {
+	margin: 0 10px;
+	height: 58px;
+	clear: both;
+	border-top: 1px solid #D9D9D9;
+	position: relative
+}
+
+.ie {
+	z-index: 2999
+}
+
+.item-ativo {
+	visibility: hidden
+}
+
+.glb-mosaico .itens {
+	visibility: hidden;
+	float: left;
+	height: 60px;
+	position: absolute;
+	width: 840px;
+	left: 0
+}
+
+.glb-mosaico .item-ativo {
+	visibility: hidden
+}
+
+.glb-mosaico .combo {
+	float: right;
+	height: 24px;
+	margin-right: 0;
+	margin-top: 17px;
+	position: relative;
+	width: 88px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	text-transform: uppercase;
+	padding-bottom: 2px
+}
+
+.ie .combo {
+	width: 89px;
+	margin-top: 18px
+}
+
+.glb-mosaico .combo-mosaico-over {
+	border: 0 none;
+	box-shadow: 0 0 2px 3px #DDD;
+	-moz-box-shadow: 0 0 2px 3px #DDD;
+	-webkit-box-shadow: 0 0 2px 3px #DDD;
+	height: 24px;
+	width: 89px;
+	margin-top: 18px
+}
+
+.ie .combo-mosaico-over {
+	border: 1px solid #bbb;
+	width: 89px
+}
+
+.glb-mosaico .combo .combo-mosaico {
+	background:
+		url('http://s.glbimg.com/es/ge/media/mosaico/img/sprite-botao-mosaico.gif')
+		no-repeat scroll 72px 11px transparent;
+	color: #6D6D6D;
+	display: block;
+	font-size: 18px;
+	height: 32px;
+	letter-spacing: -1px;
+	line-height: 26px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 5px 0 5px;
+	width: 79px
+}
+
+.glb-mosaico .combo .combo-mosaico span {
+	display: block;
+	font-family: 'VolkswagenSerial-light';
+	overflow: hidden;
+	width: 66px
+}
+
+.glb-mosaico .combo .combo-mosaico-ativo {
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	background: none repeat scroll 0 0 #FFF;
+	height: 37px;
+	position: absolute;
+	z-index: 2000
+}
+
+.ie .combo .combo-mosaico-ativo {
+	height: 27px
+}
+
+.glb-mosaico .combo-mosaico-inativo .combo-mosaico {
+	background-image: none !important
+}
+
+.glb-mosaico .combo-mosaico-inativo:hover,.glb-mosaico .combo-mosaico-inativo a:hover
+	{
+	cursor: default
+}
+
+.glb-mosaico .combo-options {
+	background-color: white;
+	border-color: #DDD #B5B5B5 #B5B5B5 #DDDDDD;
+	border-radius: 0 0 4px 4px;
+	border-style: solid;
+	border-width: 0;
+	box-shadow: 0 0 2px 3px #DDD;
+	-moz-box-shadow: 0 0 2px 3px #DDD;
+	-webkit-box-shadow: 0 0 2px 3px #DDD;
+	display: none;
+	min-width: 79px;
+	width: 79px;
+	padding: 5px;
+	position: absolute;
+	right: 0;
+	top: 26px;
+	z-index: 1000
+}
+
+.glb-mosaico-internas .combo-options {
+	min-width: 86px;
+	width: 86px
+}
+
+.ie .combo-options {
+	border-color: #BBB;
+	border-width: 1px;
+	right: -1px
+}
+
+.glb-mosaico .combo-options li {
+	clear: both;
+	margin: 2px 0;
+	text-transform: uppercase
+}
+
+.glb-mosaico .combo-options li a {
+	color: #A0A0A0;
+	display: block;
+	padding: 3px;
+	text-align: right;
+	border-bottom-color: #DDD;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px
+}
+
+.glb-mosaico .combo-options li.ultima-linha a {
+	border-bottom-width: 0
+}
+
+.glb-mosaico .combo-options li a:hover {
+	color: #536b0b
+}
+
+.glb-mosaico .itens a {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	width: 30px;
+	height: 45px;
+	top: 16px;
+	bottom: 0
+}
+
+.glb-mosaico .itens a img {
+	border: medium none;
+	display: block;
+	margin: 0;
+	width: 100%
+}
+
+.glb-mosaico .itens>div {
+	width: 840px;
+	display: none
+}
+
+.glb-mosaico .itens>div:first-child {
+	display: block
+}
+
+.glb-mosaico .itens .ativo {
+	position: absolute;
+	height: 60px
+}
+
+#glb-topo .cabecalho-internas {
+	height: 75px;
+	padding: 10px 0 12px
+}
+
+.glb-mosaico-internas {
+	height: 42px
+}
+
+.glb-mosaico-internas .mosaico-internas a {
+	background: #FFF;
+	bottom: auto;
+	display: block;
+	float: left;
+	height: 25px;
+	margin: 0 17px 0 0;
+	overflow: hidden;
+	position: relative;
+	width: 25px
+}
+
+.glb-mosaico-internas .mosaico-internas .ativo a {
+	top: 10px
+}
+
+.glb-mosaico-internas .combo-internas {
+	border: 1px solid #DDD;
+	border-radius: 4px 4px 4px 4px;
+	float: right;
+	height: 19px;
+	margin-right: 0;
+	margin-top: 11px;
+	padding-bottom: 2px;
+	position: relative;
+	text-transform: uppercase;
+	width: 96px
+}
+
+.glb-mosaico-internas .combo-mosaico-over {
+	box-shadow: 0 0 2px 3px #DDD;
+	-moz-box-shadow: 0 0 2px 3px #DDD;
+	-webkit-box-shadow: 0 0 2px 3px #DDD
+}
+
+.glb-mosaico-internas .combo-internas .combo-mosaico {
+	background: none repeat scroll 0 0 transparent;
+	color: #6D6D6D;
+	display: block;
+	font-size: 12px;
+	height: 28px;
+	letter-spacing: .5px;
+	line-height: 23px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 96px
+}
+
+.glb-mosaico-internas .combo-mosaico-aba-ativo-internas .combo-mosaico {
+	background-color: #fff
+}
+
+.glb-mosaico-internas .combo-internas .combo-mosaico span {
+	background:
+		url('http://s.glbimg.com/es/ge/media/mosaico/img/sprite-botao-mosaico.gif')
+		no-repeat scroll 80px 9px transparent;
+	display: block;
+	font-family: "VolkswagenSerialLight", "VolkswagenSerial-Light",
+		x-small arial, helvetica, freesans, sans-serif;
+	height: 26px;
+	overflow: hidden;
+	padding-left: 5px;
+	width: 96px
+}
+
+.ie7 img,.ie8 img {
+	-ms-interpolation-mode: bicubic
+}
+
+#glb-diretorio {
+	background-color: #426103;
+	margin-top: 55px
+}
+
+#glb-diretorio .glb-conteudo .diretorio-indice strong {
+	color: #fff
+}
+
+#glb-diretorio .glb-conteudo ul li a {
+	color: #fff
+}
+
+#glb-diretorio .divisoria {
+	border-color: #405A09
+}
+
+#glb-rodape {
+	background-color: #405A09;
+	color: #fff
+}
+
+#glb-rodape .rodape-menu-produtos {
+	border-color: #4e6e0b
+}
+
+#glb-rodape .rodape-menu-produtos a {
+	border-color: #4e6e0b
+}
+
+#glb-rodape .rodape-menu-servicos a {
+	border-color: #4e6e0b
+}
+
+#glb-rodape a,#glb-rodape a:link,#glb-rodape a:visited {
+	color: #fff
+}
+
+.assets-sprite,.assets-afeganistao,.assets-africa-do-sul,.assets-albania,.assets-alemanha,.assets-andorra,.assets-angola,.assets-antigua-e-barbuda,.assets-arabia-saudita,.assets-argelia,.assets-argentina,.assets-armenia,.assets-aruba,.assets-australia,.assets-austria,.assets-azerbaijao,.assets-bahamas,.assets-bahrein,.assets-bangladesh,.assets-barbados,.assets-belgica,.assets-belize,.assets-benim,.assets-bermudas,.assets-bg-divisor,.assets-bg-sombra-quadro,.assets-bielorrussia,.assets-bolivia,.assets-bosnia-e-herzegovina,.assets-botswana,.assets-brasil-ticker,.assets-brasil,.assets-brunei,.assets-btn-fechar-popin,.assets-bulgaria,.assets-burkina-faso,.assets-burundi,.assets-butao,.assets-cabo-verde,.assets-camaroes,.assets-camboja,.assets-canada,.assets-cazaquistao,.assets-chade,.assets-chile,.assets-china,.assets-chipre,.assets-cingapura,.assets-colombia,.assets-comores,.assets-congo,.assets-coreia-do-norte,.assets-coreia-do-sul,.assets-costa-do-marfim,.assets-costa-rica,.assets-croacia,.assets-cuba,.assets-dinamarca,.assets-djibouti,.assets-dominica,.assets-egito,.assets-el-salvador,.assets-emirados-arabes-unidos,.assets-equador,.assets-eritreia,.assets-eslovaquia,.assets-eslovenia,.assets-espanha,.assets-estados-unidos,.assets-estonia,.assets-etiopia,.assets-fiji,.assets-filipinas,.assets-finlandia,.assets-franca,.assets-g-bronze,.assets-g-ouro,.assets-g-prata,.assets-g-total,.assets-gabao,.assets-gambia,.assets-gana,.assets-georgia,.assets-gra-bretanha,.assets-granada,.assets-grecia,.assets-guam,.assets-guatemala,.assets-guiana,.assets-guine-bissau,.assets-guine-equatorial,.assets-guine,.assets-haiti,.assets-holanda,.assets-honduras,.assets-hong-kong,.assets-hungria,.assets-icone-or,.assets-icone-wr,.assets-iemen,.assets-ilhas-cayman,.assets-ilhas-cook,.assets-ilhas-marshall,.assets-ilhas-mauricio,.assets-ilhas-salomao,.assets-ilhas-virgens-americanas,.assets-ilhas-virgens-britanicas,.assets-india,.assets-indonesia,.assets-inglaterra,.assets-ira,.assets-iraque,.assets-irlanda,.assets-islandia,.assets-israel,.assets-italia,.assets-jamaica,.assets-japao,.assets-jordania,.assets-kiribati,.assets-kuwait,.assets-laos,.assets-lesoto,.assets-letonia,.assets-libano,.assets-liberia,.assets-libia,.assets-liechtenstein,.assets-lituania,.assets-logo-sportv-2,.assets-logo-sportv-3,.assets-logo-sportv-4,.assets-logo-sportv-hd,.assets-logo-sportv-sd,.assets-logo-sportv,.assets-logo-sportv2-sd,.assets-logo-sportv3-sd,.assets-logo-sportv4-sd,.assets-luxemburgo,.assets-m-bronze,.assets-m-ouro,.assets-m-prata,.assets-m-total,.assets-macedonia,.assets-madagascar,.assets-malasia,.assets-malawi,.assets-maldivas,.assets-mali,.assets-malta,.assets-marrocos,.assets-mauritania,.assets-mexico,.assets-micronesia,.assets-mocambique,.assets-moldavia,.assets-monaco,.assets-mongolia,.assets-montenegro,.assets-myanmar,.assets-namibia,.assets-nauru,.assets-nepal,.assets-nicaragua,.assets-niger,.assets-nigeria,.assets-noruega,.assets-nova-zelandia,.assets-oma,.assets-p-bronze,.assets-p-ouro,.assets-p-prata,.assets-p-total,.assets-palau,.assets-palestina,.assets-panama,.assets-papua-nova-guine,.assets-paquistao,.assets-paraguai,.assets-peru,.assets-polonia,.assets-porto-rico,.assets-portugal,.assets-qatar,.assets-quenia,.assets-quirquistao,.assets-republica-centro-africana,.assets-republica-democratica-do-congo,.assets-republica-dominicana,.assets-republica-tcheca,.assets-romenia,.assets-ruanda,.assets-russia,.assets-samoa-americana,.assets-samoa,.assets-san-marino,.assets-santa-lucia,.assets-sao-cristovao-e-neves,.assets-sao-tome-e-principe,.assets-sao-vicente-e-granadinas,.assets-senegal,.assets-serra-leoa,.assets-servia,.assets-seychelles,.assets-siria,.assets-somalia,.assets-sri-lanka,.assets-suazilandia,.assets-sudao,.assets-suecia,.assets-suica,.assets-suriname,.assets-tadjiquistao,.assets-tailandia,.assets-taiwan,.assets-tanzania,.assets-timor-leste,.assets-togo,.assets-tonga,.assets-trinidad-e-tobago,.assets-tunisia,.assets-turcomenistao,.assets-turquia,.assets-tuvalu,.assets-ucrania,.assets-uganda,.assets-uruguai,.assets-uzbequistao,.assets-vanuatu,.assets-venezuela,.assets-vietna,.assets-zambia,.assets-zimbabwe
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/comum/assets-sb27d07cea3.png')
+		no-repeat
+}
+
+.assets-afeganistao {
+	background-position: -496px -22px
+}
+
+.assets-africa-do-sul {
+	background-position: -630px -46px
+}
+
+.assets-albania {
+	background-position: -612px -46px
+}
+
+.assets-alemanha {
+	background-position: -594px -46px
+}
+
+.assets-andorra {
+	background-position: -558px -46px
+}
+
+.assets-angola {
+	background-position: -658px -22px
+}
+
+.assets-antigua-e-barbuda {
+	background-position: -54px -114px
+}
+
+.assets-arabia-saudita {
+	background-position: -208px -22px
+}
+
+.assets-argelia {
+	background-position: -226px -22px
+}
+
+.assets-argentina {
+	background-position: -244px -22px
+}
+
+.assets-armenia {
+	background-position: -262px -22px
+}
+
+.assets-aruba {
+	background-position: -280px -22px
+}
+
+.assets-australia {
+	background-position: -298px -22px
+}
+
+.assets-austria {
+	background-position: -316px -22px
+}
+
+.assets-azerbaijao {
+	background-position: -334px -22px
+}
+
+.assets-bahamas {
+	background-position: -352px -22px
+}
+
+.assets-bahrein {
+	background-position: -370px -22px
+}
+
+.assets-bangladesh {
+	background-position: -388px -22px
+}
+
+.assets-barbados {
+	background-position: -406px -22px
+}
+
+.assets-belgica {
+	background-position: -424px -22px
+}
+
+.assets-belize {
+	background-position: -442px -22px
+}
+
+.assets-benim {
+	background-position: -460px -22px
+}
+
+.assets-bermudas {
+	background-position: -478px -22px
+}
+
+.assets-bg-divisor {
+	background-position: 0 0
+}
+
+.assets-bg-sombra-quadro {
+	background-position: 0 -94px
+}
+
+.assets-bielorrussia {
+	background-position: -532px -22px
+}
+
+.assets-bolivia {
+	background-position: -550px -22px
+}
+
+.assets-bosnia-e-herzegovina {
+	background-position: -568px -22px
+}
+
+.assets-botswana {
+	background-position: -586px -22px
+}
+
+.assets-brasil-ticker {
+	background-position: -545px -114px
+}
+
+.assets-brasil {
+	background-position: -622px -22px
+}
+
+.assets-brunei {
+	background-position: -640px -22px
+}
+
+.assets-btn-fechar-popin {
+	background-position: -180px -22px
+}
+
+.assets-bulgaria {
+	background-position: -676px -22px
+}
+
+.assets-burkina-faso {
+	background-position: -694px -22px
+}
+
+.assets-burundi {
+	background-position: -712px -22px
+}
+
+.assets-butao {
+	background-position: -730px -22px
+}
+
+.assets-cabo-verde {
+	background-position: -748px -22px
+}
+
+.assets-camaroes {
+	background-position: -766px -22px
+}
+
+.assets-camboja {
+	background-position: -784px -22px
+}
+
+.assets-canada {
+	background-position: -802px -22px
+}
+
+.assets-cazaquistao {
+	background-position: -820px -22px
+}
+
+.assets-chade {
+	background-position: -838px -22px
+}
+
+.assets-chile {
+	background-position: -856px -22px
+}
+
+.assets-china {
+	background-position: -874px -22px
+}
+
+.assets-chipre {
+	background-position: 0 -10px
+}
+
+.assets-cingapura {
+	background-position: -18px -10px
+}
+
+.assets-colombia {
+	background-position: -36px -10px
+}
+
+.assets-comores {
+	background-position: -54px -10px
+}
+
+.assets-congo {
+	background-position: -72px -10px
+}
+
+.assets-coreia-do-norte {
+	background-position: -90px -10px
+}
+
+.assets-coreia-do-sul {
+	background-position: -108px -10px
+}
+
+.assets-costa-do-marfim {
+	background-position: -126px -10px
+}
+
+.assets-costa-rica {
+	background-position: -144px -10px
+}
+
+.assets-croacia {
+	background-position: -162px -10px
+}
+
+.assets-cuba {
+	background-position: -180px -10px
+}
+
+.assets-dinamarca {
+	background-position: -198px -10px
+}
+
+.assets-djibouti {
+	background-position: -216px -10px
+}
+
+.assets-dominica {
+	background-position: -234px -10px
+}
+
+.assets-egito {
+	background-position: -252px -10px
+}
+
+.assets-el-salvador {
+	background-position: -270px -10px
+}
+
+.assets-emirados-arabes-unidos {
+	background-position: -288px -10px
+}
+
+.assets-equador {
+	background-position: -306px -10px
+}
+
+.assets-eritreia {
+	background-position: -324px -10px
+}
+
+.assets-eslovaquia {
+	background-position: -342px -10px
+}
+
+.assets-eslovenia {
+	background-position: -360px -10px
+}
+
+.assets-espanha {
+	background-position: -378px -10px
+}
+
+.assets-estados-unidos {
+	background-position: -396px -10px
+}
+
+.assets-estonia {
+	background-position: -414px -10px
+}
+
+.assets-etiopia {
+	background-position: -432px -10px
+}
+
+.assets-fiji {
+	background-position: -450px -10px
+}
+
+.assets-filipinas {
+	background-position: -468px -10px
+}
+
+.assets-finlandia {
+	background-position: -486px -10px
+}
+
+.assets-franca {
+	background-position: -504px -10px
+}
+
+.assets-g-bronze {
+	background-position: -274px -58px
+}
+
+.assets-g-ouro {
+	background-position: -310px -58px
+}
+
+.assets-g-prata {
+	background-position: -238px -58px
+}
+
+.assets-g-total {
+	background-position: -188px -58px
+}
+
+.assets-gabao {
+	background-position: -594px -10px
+}
+
+.assets-gambia {
+	background-position: -612px -10px
+}
+
+.assets-gana {
+	background-position: -630px -10px
+}
+
+.assets-georgia {
+	background-position: -648px -10px
+}
+
+.assets-gra-bretanha {
+	background-position: -666px -10px
+}
+
+.assets-granada {
+	background-position: -684px -10px
+}
+
+.assets-grecia {
+	background-position: -702px -10px
+}
+
+.assets-guam {
+	background-position: -720px -10px
+}
+
+.assets-guatemala {
+	background-position: -738px -10px
+}
+
+.assets-guiana {
+	background-position: -756px -10px
+}
+
+.assets-guine-bissau {
+	background-position: -774px -10px
+}
+
+.assets-guine-equatorial {
+	background-position: -792px -10px
+}
+
+.assets-guine {
+	background-position: -810px -10px
+}
+
+.assets-haiti {
+	background-position: -828px -10px
+}
+
+.assets-holanda {
+	background-position: -846px -10px
+}
+
+.assets-honduras {
+	background-position: -864px -10px
+}
+
+.assets-hong-kong {
+	background-position: -882px -10px
+}
+
+.assets-hungria {
+	background-position: -900px -10px
+}
+
+.assets-icone-or {
+	background-position: -561px -114px
+}
+
+.assets-icone-wr {
+	background-position: -591px -114px
+}
+
+.assets-iemen {
+	background-position: -892px -22px
+}
+
+.assets-ilhas-cayman {
+	background-position: -910px -22px
+}
+
+.assets-ilhas-cook {
+	background-position: -928px -22px
+}
+
+.assets-ilhas-marshall {
+	background-position: 0 -46px
+}
+
+.assets-ilhas-mauricio {
+	background-position: -18px -46px
+}
+
+.assets-ilhas-salomao {
+	background-position: -36px -46px
+}
+
+.assets-ilhas-virgens-americanas {
+	background-position: -54px -46px
+}
+
+.assets-ilhas-virgens-britanicas {
+	background-position: -72px -46px
+}
+
+.assets-india {
+	background-position: -90px -46px
+}
+
+.assets-indonesia {
+	background-position: -108px -46px
+}
+
+.assets-inglaterra {
+	background-position: -126px -46px
+}
+
+.assets-ira {
+	background-position: -144px -46px
+}
+
+.assets-iraque {
+	background-position: -162px -46px
+}
+
+.assets-irlanda {
+	background-position: -180px -46px
+}
+
+.assets-islandia {
+	background-position: -198px -46px
+}
+
+.assets-israel {
+	background-position: -216px -46px
+}
+
+.assets-italia {
+	background-position: -234px -46px
+}
+
+.assets-jamaica {
+	background-position: -252px -46px
+}
+
+.assets-japao {
+	background-position: -270px -46px
+}
+
+.assets-jordania {
+	background-position: -288px -46px
+}
+
+.assets-kiribati {
+	background-position: -306px -46px
+}
+
+.assets-kuwait {
+	background-position: -324px -46px
+}
+
+.assets-laos {
+	background-position: -342px -46px
+}
+
+.assets-lesoto {
+	background-position: -360px -46px
+}
+
+.assets-letonia {
+	background-position: -378px -46px
+}
+
+.assets-libano {
+	background-position: -396px -46px
+}
+
+.assets-liberia {
+	background-position: -414px -46px
+}
+
+.assets-libia {
+	background-position: -432px -46px
+}
+
+.assets-liechtenstein {
+	background-position: -450px -46px
+}
+
+.assets-lituania {
+	background-position: -468px -46px
+}
+
+.assets-logo-sportv-2 {
+	background-position: -266px -114px
+}
+
+.assets-logo-sportv-3 {
+	background-position: -169px -114px
+}
+
+.assets-logo-sportv-4 {
+	background-position: -72px -114px
+}
+
+.assets-logo-sportv-hd {
+	background-position: -454px -114px
+}
+
+.assets-logo-sportv-sd {
+	background-position: -120px -22px
+}
+
+.assets-logo-sportv {
+	background-position: -363px -114px
+}
+
+.assets-logo-sportv2-sd {
+	background-position: -60px -22px
+}
+
+.assets-logo-sportv3-sd {
+	background-position: 0 -22px
+}
+
+.assets-logo-sportv4-sd {
+	background-position: 0 -58px
+}
+
+.assets-luxemburgo {
+	background-position: -648px -46px
+}
+
+.assets-m-bronze {
+	background-position: -101px -58px
+}
+
+.assets-m-ouro {
+	background-position: -159px -58px
+}
+
+.assets-m-prata {
+	background-position: -130px -58px
+}
+
+.assets-m-total {
+	background-position: -60px -58px
+}
+
+.assets-macedonia {
+	background-position: -738px -46px
+}
+
+.assets-madagascar {
+	background-position: -756px -46px
+}
+
+.assets-malasia {
+	background-position: -774px -46px
+}
+
+.assets-malawi {
+	background-position: -792px -46px
+}
+
+.assets-maldivas {
+	background-position: -810px -46px
+}
+
+.assets-mali {
+	background-position: -828px -46px
+}
+
+.assets-malta {
+	background-position: -846px -46px
+}
+
+.assets-marrocos {
+	background-position: -864px -46px
+}
+
+.assets-mauritania {
+	background-position: -882px -46px
+}
+
+.assets-mexico {
+	background-position: 0 -34px
+}
+
+.assets-micronesia {
+	background-position: -18px -34px
+}
+
+.assets-mocambique {
+	background-position: -36px -34px
+}
+
+.assets-moldavia {
+	background-position: -54px -34px
+}
+
+.assets-monaco {
+	background-position: -72px -34px
+}
+
+.assets-mongolia {
+	background-position: -90px -34px
+}
+
+.assets-montenegro {
+	background-position: -108px -34px
+}
+
+.assets-myanmar {
+	background-position: -126px -34px
+}
+
+.assets-namibia {
+	background-position: -144px -34px
+}
+
+.assets-nauru {
+	background-position: -162px -34px
+}
+
+.assets-nepal {
+	background-position: -180px -34px
+}
+
+.assets-nicaragua {
+	background-position: -198px -34px
+}
+
+.assets-niger {
+	background-position: -216px -34px
+}
+
+.assets-nigeria {
+	background-position: -234px -34px
+}
+
+.assets-noruega {
+	background-position: -252px -34px
+}
+
+.assets-nova-zelandia {
+	background-position: -270px -34px
+}
+
+.assets-oma {
+	background-position: -288px -34px
+}
+
+.assets-p-bronze {
+	background-position: -685px -114px
+}
+
+.assets-p-ouro {
+	background-position: -667px -114px
+}
+
+.assets-p-prata {
+	background-position: -649px -114px
+}
+
+.assets-p-total {
+	background-position: -621px -114px
+}
+
+.assets-palau {
+	background-position: -378px -34px
+}
+
+.assets-palestina {
+	background-position: -396px -34px
+}
+
+.assets-panama {
+	background-position: -414px -34px
+}
+
+.assets-papua-nova-guine {
+	background-position: -432px -34px
+}
+
+.assets-paquistao {
+	background-position: -450px -34px
+}
+
+.assets-paraguai {
+	background-position: -468px -34px
+}
+
+.assets-peru {
+	background-position: -486px -34px
+}
+
+.assets-polonia {
+	background-position: -504px -34px
+}
+
+.assets-porto-rico {
+	background-position: -522px -34px
+}
+
+.assets-portugal {
+	background-position: -540px -34px
+}
+
+.assets-qatar {
+	background-position: -558px -34px
+}
+
+.assets-quenia {
+	background-position: -576px -34px
+}
+
+.assets-quirquistao {
+	background-position: -594px -34px
+}
+
+.assets-republica-centro-africana {
+	background-position: -612px -34px
+}
+
+.assets-republica-democratica-do-congo {
+	background-position: -630px -34px
+}
+
+.assets-republica-dominicana {
+	background-position: -648px -34px
+}
+
+.assets-republica-tcheca {
+	background-position: -666px -34px
+}
+
+.assets-romenia {
+	background-position: -684px -34px
+}
+
+.assets-ruanda {
+	background-position: -702px -34px
+}
+
+.assets-russia {
+	background-position: -720px -34px
+}
+
+.assets-samoa-americana {
+	background-position: -738px -34px
+}
+
+.assets-samoa {
+	background-position: -756px -34px
+}
+
+.assets-san-marino {
+	background-position: -774px -34px
+}
+
+.assets-santa-lucia {
+	background-position: -792px -34px
+}
+
+.assets-sao-cristovao-e-neves {
+	background-position: -810px -34px
+}
+
+.assets-sao-tome-e-principe {
+	background-position: -828px -34px
+}
+
+.assets-sao-vicente-e-granadinas {
+	background-position: -846px -34px
+}
+
+.assets-senegal {
+	background-position: -864px -34px
+}
+
+.assets-serra-leoa {
+	background-position: -882px -34px
+}
+
+.assets-servia {
+	background-position: -900px -34px
+}
+
+.assets-seychelles {
+	background-position: -918px -34px
+}
+
+.assets-siria {
+	background-position: -190px -22px
+}
+
+.assets-somalia {
+	background-position: -900px -46px
+}
+
+.assets-sri-lanka {
+	background-position: -918px -46px
+}
+
+.assets-suazilandia {
+	background-position: -936px -46px
+}
+
+.assets-sudao {
+	background-position: 0 -114px
+}
+
+.assets-suecia {
+	background-position: -18px -114px
+}
+
+.assets-suica {
+	background-position: -36px -114px
+}
+
+.assets-suriname {
+	background-position: -936px -34px
+}
+
+.assets-tadjiquistao {
+	background-position: -360px -34px
+}
+
+.assets-tailandia {
+	background-position: -342px -34px
+}
+
+.assets-taiwan {
+	background-position: -324px -34px
+}
+
+.assets-tanzania {
+	background-position: -306px -34px
+}
+
+.assets-timor-leste {
+	background-position: -720px -46px
+}
+
+.assets-togo {
+	background-position: -702px -46px
+}
+
+.assets-tonga {
+	background-position: -684px -46px
+}
+
+.assets-trinidad-e-tobago {
+	background-position: -666px -46px
+}
+
+.assets-tunisia {
+	background-position: -576px -46px
+}
+
+.assets-turcomenistao {
+	background-position: -540px -46px
+}
+
+.assets-turquia {
+	background-position: -522px -46px
+}
+
+.assets-tuvalu {
+	background-position: -504px -46px
+}
+
+.assets-ucrania {
+	background-position: -486px -46px
+}
+
+.assets-uganda {
+	background-position: -936px -10px
+}
+
+.assets-uruguai {
+	background-position: -918px -10px
+}
+
+.assets-uzbequistao {
+	background-position: -576px -10px
+}
+
+.assets-vanuatu {
+	background-position: -558px -10px
+}
+
+.assets-venezuela {
+	background-position: -540px -10px
+}
+
+.assets-vietna {
+	background-position: -522px -10px
+}
+
+.assets-zambia {
+	background-position: -604px -22px
+}
+
+.assets-zimbabwe {
+	background-position: -514px -22px
+}
+
+.glb-bloco>div {
+	min-height: 1px
+}
+
+.ie7 #glb-cabecalho {
+	position: relative;
+	z-index: 999
+}
+
+.publicidade-quadrado .glb-opec {
+	margin-bottom: 30px
+}
+
+#glb-corpo a {
+	color: #4E6E0B
+}
+
+#glb-menu .menu-borda-baixo {
+	background-color: #4e6e0b
+}
+
+#glb-topo .cabecalho-ge .submenu-aba-n2,#glb-topo .cabecalho-ge .submenu-aba-n1
+	{
+	background-image:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/sprite_menu_item.png')
+}
+
+.menu-item-li .menu-item-has-submenu {
+	border-color: #536b0b
+}
+
+#glb-topo .cabecalho-ge .submenu-aba-n2 {
+	background-position: right 58px
+}
+
+#glb-topo .cabecalho-ge .submenu-aba-n1 {
+	background-position: 0 0
+}
+
+#glb-menu .submenu {
+	top: 30px
+}
+
+#glb-menu .submenu-aba {
+	top: -36px
+}
+
+#glb-menu .submenu .menu-canto-te {
+	display: none
+}
+
+#glb-topo .cabecalho-ge .submenu-aba-n1 {
+	height: 54px
+}
+
+#glb-topo .cabecalho-ge .submenu-aba-n1,#glb-topo .cabecalho-ge .submenu-aba-n2
+	{
+	background-image:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/sprite_menu_item.png')
+}
+
+#glb-topo .cabecalho-ge .submenu-aba-n2 {
+	background-position: right -122px;
+	height: 24px
+}
+
+#glb-topo .conteudo-subitens {
+	padding-top: 5px
+}
+
+#glb-topo #glb-menu a.menu-item-a:hover,#glb-topo #glb-menu .conteudo- ul a:hover
+	{
+	border-bottom-color: #4e6e0b !important;
+	border-left-color-ltr-source: physical;
+	border-left-color-rtl-source: physical;
+	border-left-color-value: #4e6e0b !important;
+	border-right-color-ltr-source: physical;
+	border-right-color-rtl-source: physical;
+	border-right-color-value: #4e6e0b !important;
+	border-top-color: #4e6e0b !important
+}
+
+#glb-topo #glb-menu .submenu-item span {
+	color: #4E6E0B
+}
+
+#glb-topo #glb-menu .submenu-item .agrupador-titulo {
+	color: #333
+}
+
+.destaque {
+	padding-bottom: 15px
+}
+
+.destaque .destaque-topo {
+	border-color: #4e6e0b
+}
+
+.glb-bloco-base-ge {
+	background:
+		url('http://s.glbimg.com/es/ge/media/common/img/estrutura/bg-base-ge.gif')
+		repeat-x center -1px #FFF;
+	border-top: 1px solid #d9d9d9;
+	padding-bottom: 50px
+}
+
+.glb-bloco-base-ge>.glb-conteudo {
+	margin: -1px auto 0 auto !important
+}
+
+.glb-bloco-base-ge .publicidade-loja {
+	margin-bottom: 2.5em
+}
+
+#glb-corpo .glb-grid-12 .ticker-programacao {
+	border-left-color: #4E6E0B
+}
+
+#glb-corpo .glb-grid-12 .ticker-programacao .destaque-chamada {
+	color: #4E6E0B
+}
+
+#widget-blogs .widget-titulo {
+	border-top-color: #536b0b !important
+}
+
+#widget-blogs .conteudo-post a {
+	color: #536b0b !important
+}
+
+#widget-blogs .widget-blogs-erro {
+	color: #536b0b !important
+}
+
+#widget-blogs .navegacao a.seta-anterior,#widget-blogs .navegacao a.seta-proximo
+	{
+	background-color: #536b0b !important
+}
+
+.widget-interatividade .widget-titulo {
+	border-top-color: #536b0b !important
+}
+
+.destaque-agrupamento .destaque-topo {
+	padding-top: 16px;
+	padding-bottom: 29px
+}
+
+.destaque-agrupamento .destaque-topo .titulo {
+	font-size: 30px;
+	font-weight: normal;
+	letter-spacing: -1.5px
+}
+
+.destaque-agrupamento .destaque-topo .titulo span {
+	color: #536b0b
+}
+
+.destaque-agrupamento .destaque-topo a.titulo {
+	color: #fff !important
+}
+
+.destaque-agrupamento .destaque-topo span:hover {
+	color: #809935
+}
+
+.destaque-agrupamento.destaque {
+	margin-bottom: 20px !important
+}
+
+.destaque-carrossel-editorial .widget-titulo {
+	border-top-color: #536b0b !important;
+	border-color: #4E6E0B #DDDDDD #DDD
+}
+
+.destaque-carrossel-editorial .widget-titulo a:hover {
+	color: #809935 !important
+}
+
+#glb-corpo .destaque-carrossel-editorial .conteudo-destaques-editorial ul li a
+	{
+	color: #536b0b !important
+}
+
+.destaque-carrossel-editorial .conteudo-destaques-editorial ul li span {
+	border-bottom-color: #DDD !important
+}
+
+.destaque-carrossel-editorial .navegacao a.seta-anterior,.destaque-carrossel-editorial .navegacao a.seta-proximo
+	{
+	background-color: #536b0b !important
+}
+
+.agrupamento-ranking-textual .widget-titulo {
+	border-top-color: #4E6E0B
+}
+
+.agrupamento-mosaico .widget-titulo {
+	border-top-color: #536B0B !important
+}
+
+.glb-carrossel-passos-compacto {
+	
+}
+
+#ge-classificacao-generica .widget-titulo {
+	border-top-color: #4E6E0B !important
+}
+
+#ge-classificacao-generica .widget-titulo strong a {
+	color: #4E6E0B !important
+}
+
+#ge-classificacao-generica .link a {
+	color: #4E6E0B !important
+}
+
+.destaque-quintuplo .titulos-topo .titulo {
+	letter-spacing: -1.5px;
+	font-size: 30px
+}
+
+.destaque-quintuplo .titulos-topo li {
+	margin-bottom: 10px
+}
+
+.destaque-quintuplo .destaque-topo .titulo {
+	font-size: 15px;
+	letter-spacing: -0.5px;
+	line-height: 17px
+}
+
+.glb-bloco .widget-ticker-noticias .barra-aberta {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/barra_bg.png')
+		repeat-x scroll 0 0 transparent
+}
+
+#glb-corpo .glb-bloco .widget-ticker-noticias .barra-aberta .noticias a.titulo
+	{
+	color: #454545
+}
+
+#glb-corpo .glb-bloco .widget-ticker-noticias .barra-aberta .noticias a:hover
+	{
+	color: #536b0b
+}
+
+#glb-corpo .glb-bloco .widget-ticker-noticias .barra-aberta .link a:hover
+	{
+	color: #536b0b
+}
+
+.glb-bloco .widget-ticker-noticias .barra-aberta .marca a {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/sprites_barrinha.png')
+		no-repeat scroll 0 -6px transparent
+}
+
+.glb-bloco .widget-ticker-noticias .barra-aberta .marca a:hover {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/sprites_barrinha.png')
+		no-repeat scroll -127px -6px transparent
+}
+
+.glb-bloco .widget-ticker-noticias .barra-aberta .navegacao span a {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/sprites_barrinha.png')
+		no-repeat scroll 0 0 transparent
+}
+
+.glb-bloco .widget-ticker-noticias .barra-fechada .marca a {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/sprites_barrinha.png')
+		no-repeat scroll -543px 0 transparent
+}
+
+.glb-bloco .widget-ticker-noticias .barra-fechada .marca a:hover {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/sprites_barrinha.png')
+		no-repeat scroll -684px 0 transparent
+}
+
+.glb-bloco .widget-ticker-noticias .barra-aberta .fechar a {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/sprites_barrinha.png')
+		no-repeat scroll -436px -6px transparent
+}
+
+.glb-bloco .widget-ticker-noticias .barra-aberta .fechar a:hover {
+	background:
+		url('http://s.glbimg.com/es/ge/media/globoesporte/img/sprites_barrinha.png')
+		no-repeat scroll -480px -6px transparent
+}
+
+#glb-menu ul.menu-itens .submenu-item .cor-produto-border-hover:hover,#glb-menu .submenu-item a:hover
+	{
+	border-color: #4E6E0B !important
+}
+
+.maisvistas-fotos {
+	padding: 9px 0 10px 8px
+}
+
+.maisvistas-fotos .fotoPequena {
+	height: 90px
+}
+
+.widget-video .video {
+	margin-bottom: .3em
+}
+
+.widget {
+	margin-bottom: 3.3em
+}
+
+.glb-carrossel-navegacao a span {
+	color: #FFF !important
+}
+
+.glb-carrossel-titulo-borda,.glb-carrossel-titulo-seta,.glb-carrossel-navegacao-item-bg-ativo
+	{
+	background-color: #4E6E0B !important
+}
+
+.glb-carrossel-adicionais a {
+	color: #FFF !important
+}
+
+.opec-right2,.opec-top1 {
+	margin-bottom: 10px
+}
+
+.destaque-quintuplo {
+	margin-bottom: 40px
+}
+
+.destaque-urgente {
+	background: #405a09
+}
+
+.destaque-urgente .chamada {
+	background: #4e6e0b none repeat scroll 0 0
+}
+
+.destaque-urgente strong.titulo,.destaque-urgente strong.titulo a {
+	color: #FFF !important
+}
+
+.destaque-urgente .etiqueta {
+	background: #405a09 none repeat scroll 0 0
+}
+
+.destaque-horizontal-sextuplo,.destaque-horizontal-quadruplo .titulo-box strong
+	{
+	border-color: #4E6E0B !important
+}
+
+.glb-opec #opec-middle {
+	margin-top: 3px !important
+}
+
+#widget-agenda-resumida,#quadro-medalhas-resumido {
+	border-top: 4px solid #536b0b;
+	margin-top: 0 !important
+}
+
+#widget-agenda-resumida .titulo {
+	line-height: 60px;
+	margin-bottom: 15px !important
+}
+
+.glb-grid-4,.glb-grid-8,.glb-grid-12 {
+	margin-bottom: 10px
+}
+
+#glb-corpo .ticker-programacao {
+	background: #f8f8f8
+		url('http://s.glbimg.com/es/ge/media/sportv/img/componentes/bg-ticker-programacao.jpg')
+		repeat-x 0 -1px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e0e0e0;
+	border-left: 2px solid #990101;
+	height: 23px;
+	padding: 10px;
+	position: relative;
+	overflow: hidden
+}
+
+#glb-corpo .ticker-programacao .destaque-chamada,#glb-corpo .ticker-programacao span,#glb-corpo .ticker-programacao p,#glb-corpo .ticker-programacao strong
+	{
+	color: #333;
+	float: left;
+	font-size: 16px;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 0
+}
+
+#glb-corpo .ticker-programacao span,#glb-corpo .ticker-programacao p,#glb-corpo .ticker-programacao strong
+	{
+	color: #333;
+	line-height: 23px
+}
+
+#glb-corpo .ticker-programacao .destaque-chamada {
+	color: #b60d3d;
+	font-size: 16px;
+	letter-spacing: 0;
+	margin: 3px 10px 0 5px;
+	text-transform: uppercase
+}
+
+#glb-corpo .ticker-programacao .destaque-chamada:hover,#glb-corpo .ticker-programacao .destaque-chamada a:hover
+	{
+	cursor: default;
+	text-decoration: none
+}
+
+#glb-corpo .ticker-programacao span {
+	color: #949494;
+	font-size: 16px;
+	letter-spacing: -0.5px;
+	margin-right: 17px
+}
+
+#glb-corpo .ticker-programacao strong {
+	margin-right: 5px
+}
+
+#glb-corpo .ticker-programacao strong a:hover {
+	text-decoration: underline
+}
+
+#glb-corpo .ticker-programacao p {
+	font-size: 12px;
+	letter-spacing: -0.5px
+}
+
+#glb-corpo .ticker-programacao .logo-destaque span {
+	background:
+		url('http://s.glbimg.com/es/ge/media/sportv/img/componentes/logo-canais-ticker.jpg')
+		no-repeat 0 0;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	top: 12px;
+	right: 5px;
+	position: absolute;
+	width: 100px;
+	overflow: hidden;
+	text-indent: -999px
+}
+
+#glb-corpo .ticker-programacao .logo-destaque .glb-hl-style-logo-sportv
+	{
+	background-position: center -10px !important
+}
+
+#glb-corpo .ticker-programacao .logo-destaque .glb-hl-style-logo-sportv-2
+	{
+	background-position: center -53px !important
+}
+
+#glb-corpo .ticker-programacao .logo-destaque .glb-hl-style-logo-sportv-hd
+	{
+	background-position: center -97px !important
+}
+
+#glb-corpo .ticker-programacao .logo-destaque .glb-hl-style-logo-sportv-com
+	{
+	background-position: center -142px !important;
+	height: 25px
+}
+
+.widget-bolao {
+	border-top: 2px solid #271373;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	height: 260px;
+	margin-bottom: 30px;
+	border-radius: 2px;
+	width: 300px;
+	position: relative
+}
+
+.widget-bolao ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 168px
+}
+
+.widget-bolao .header {
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	height: 18px
+}
+
+.widget-bolao .title {
+	font-family: Arial;
+	font-size: 16px;
+	letter-spacing: -0.04em;
+	color: #000;
+	float: left;
+	margin-bottom: 0;
+	margin-left: 5px;
+	margin-top: 0;
+	font-weight: bold
+}
+
+.widget-bolao .info {
+	float: right;
+	height: 15px;
+	width: 80px;
+	background:
+		url('http://s.glbimg.com/es/ge/media/sportv/img/componentes/logo-canais-ticker.jpg')
+		no-repeat scroll -10px -10px transparent
+}
+
+.widget-bolao.palpites .off,.widget-bolao.palpite-time .off {
+	display: none
+}
+
+.widget-bolao.palpites .seta,.widget-bolao.palpite-time .seta {
+	cursor: pointer;
+	display: block
+}
+
+.widget-bolao.palpites .seta.anterior,.widget-bolao.palpite-time .seta.anterior
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/libby/box_carrossel_destaques_editoriais/img/sprite_navegacao-carrossel.gif')
+		no-repeat 0 0 #4E6E0B;
+	float: left;
+	margin-left: 14px;
+	height: 21px;
+	width: 21px
+}
+
+.widget-bolao.palpites .seta.proximo,.widget-bolao.palpite-time .seta.proximo
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/libby/box_carrossel_destaques_editoriais/img/sprite_navegacao-carrossel.gif')
+		no-repeat -29px 0 #4E6E0B;
+	float: right;
+	margin-right: 14px;
+	height: 21px;
+	width: 21px
+}
+
+.widget-bolao.palpites .seta.anterior.off,.widget-bolao.palpite-time .seta.anterior.off
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/libby/box_carrossel_destaques_editoriais/img/sprite_navegacao-carrossel.gif')
+		no-repeat 0 -28px #4E6E0B;
+	cursor: default
+}
+
+.widget-bolao.palpites .seta.proximo.off,.widget-bolao.palpite-time .seta.proximo.off
+	{
+	background:
+		url('http://s.glbimg.com/es/ge/media/libby/box_carrossel_destaques_editoriais/img/sprite_navegacao-carrossel.gif')
+		no-repeat -29px -28px #4E6E0B;
+	cursor: default
+}
+
+.widget-bolao.palpites .vevent,.widget-bolao.palpite-time .vevent {
+	width: 220px;
+	margin: 14px auto;
+	text-align: center;
+	overflow: hidden
+}
+
+.widget-bolao.palpites .summary,.widget-bolao.palpite-time .summary {
+	font-family: "VolkswagenSerial-Light";
+	font-size: 15px;
+	color: #666
+}
+
+.widget-bolao.palpites .description,.widget-bolao.palpite-time .description
+	{
+	font-size: 11px;
+	color: #999;
+	margin-top: 6px
+}
+
+.widget-bolao.palpites .grafico,.widget-bolao.palpite-time .grafico {
+	height: 125px;
+	position: relative
+}
+
+.widget-bolao.palpites .grafico .mandante,.widget-bolao.palpites .grafico .empate,.widget-bolao.palpites .grafico .visitante,.widget-bolao.palpite-time .grafico .mandante,.widget-bolao.palpite-time .grafico .empate,.widget-bolao.palpite-time .grafico .visitante
+	{
+	bottom: 0;
+	position: absolute
+}
+
+.widget-bolao.palpites .grafico .mandante,.widget-bolao.palpite-time .grafico .mandante
+	{
+	left: 16px
+}
+
+.widget-bolao.palpites .grafico .empate,.widget-bolao.palpite-time .grafico .empate
+	{
+	left: 109px
+}
+
+.widget-bolao.palpites .grafico .visitante,.widget-bolao.palpite-time .grafico .visitante
+	{
+	left: 192px
+}
+
+.widget-bolao.palpites .grafico img,.widget-bolao.palpite-time .grafico img
+	{
+	display: block;
+	float: left;
+	margin-right: 5px
+}
+
+.widget-bolao.palpites .grafico .visitante img,.widget-bolao.palpite-time .grafico .visitante img
+	{
+	float: right
+}
+
+.widget-bolao.palpites .grafico .palpite,.widget-bolao.palpite-time .grafico .palpite
+	{
+	float: left;
+	color: #666;
+	font-family: 'VolkswagenSerial-Light';
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: -0.04em
+}
+
+.widget-bolao.palpites .grafico .visitante .palpite,.widget-bolao.palpite-time .grafico .visitante .palpite
+	{
+	float: right
+}
+
+.widget-bolao.palpites .grafico .mandante .plotagem,.widget-bolao.palpites .grafico .empate .plotagem,.widget-bolao.palpites .grafico .visitante .plotagem,.widget-bolao.palpite-time .grafico .mandante .plotagem,.widget-bolao.palpite-time .grafico .empate .plotagem,.widget-bolao.palpite-time .grafico .visitante .plotagem
+	{
+	background-color: #666;
+	clear: both;
+	width: 90px;
+	border-radius: 3px 3px 0 0
+}
+
+.widget-bolao.palpites .grafico .empate .palpite,.widget-bolao.palpite-time .grafico .empate .palpite
+	{
+	font-size: 16px;
+	color: #ccc;
+	width: 80px;
+	text-align: center;
+	line-height: 26px
+}
+
+.widget-bolao.palpites .grafico .empate .plotagem,.widget-bolao.palpite-time .grafico .empate .plotagem
+	{
+	background-color: #b5b5b5;
+	width: 80px
+}
+
+.widget-bolao.palpites h4,.widget-bolao.palpite-time h4,.widget-bolao.ranking-liga h4
+	{
+	line-height: 35px;
+	margin: 0 0 0 20px
+}
+
+.widget-bolao.palpites,.widget-bolao.palpite-time .widget-bolao.ranking-liga h4 a
+	{
+	font-family: 'Arial';
+	font-size: 12px;
+	text-decoration: none
+}
+
+.widget-bolao.ranking-liga table {
+	color: #666;
+	font-family: Arial;
+	font-size: 10px;
+	line-height: 3.6em;
+	width: 100%
+}
+
+.widget-bolao.ranking-liga table th {
+	border-bottom: 1px solid #DDD;
+	text-align: center
+}
+
+.widget-bolao.ranking-liga table th:first-child {
+	text-align: left;
+	text-indent: 16px;
+	text-transform: uppercase
+}
+
+.widget-bolao.ranking-liga table th:last-child {
+	width: 60px
+}
+
+.widget-bolao.ranking-liga table tr:first-child td.participante {
+	background: transparent
+		url('http://s.glbimg.com/es/ge/media/bolao/img/medalha-ouro.png')
+		no-repeat right center
+}
+
+.widget-bolao.ranking-liga table td {
+	border-bottom: 1px solid #DDD;
+	font-size: 12px;
+	text-align: center
+}
+
+.widget-bolao.ranking-liga table tr:last-child td {
+	border-bottom: 0 none
+}
+
+.widget-bolao.ranking-liga table td.pontos-cartela {
+	background-color: #f9f9f9
+}
+
+.widget-bolao.ranking-liga table td:first-child {
+	font-size: 16px;
+	padding: 0 4px;
+	width: 30px
+}
+
+.widget-bolao.ranking-liga table td.participante {
+	font-size: 12px;
+	text-align: left
+}
+
+.widget-bolao.palpites .footer,.widget-bolao.palpite-time .footer,.widget-bolao.ranking-liga .footer
+	{
+	border-top: 1px solid #DDD;
+	bottom: 0;
+	position: absolute;
+	width: 100%
+}
+
+.widget-bolao.palpites .tapume,.widget-bolao.palpite-time .tapume,.widget-bolao.ranking-liga .tapume
+	{
+	color: #999;
+	font-size: 14px;
+	line-height: 2em;
+	margin-top: 50px;
+	text-align: center
+}
+
+.widget-bolao.palpites .grafico .mandante .value,.widget-bolao.palpites .grafico .visitante .value,.widget-bolao.palpite-time .grafico .mandante .value,.widget-bolao.palpite-time .grafico .visitante .value
+	{
+	overflow: auto
+}
+
+.opec-widget-duplo {
+	margin-top: 37px;
+	float: left
+}
