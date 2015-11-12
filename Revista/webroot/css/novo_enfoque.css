@@ -1,0 +1,66 @@
+@charset "utf-8";
+body{margin:0px;background-color:#31488B;font-family:Arial, Helvetica, sans-serif;font-size:11px;}
+a{outline:none}
+#central{margin:0px auto;margin-top:5px;width:770px;padding:2px;background-color:#FFFFFF;}
+#topo{height:65px;}
+#topoLogo{float:left;margin:2px 0 0 10px;border:none}
+#topoBox{width:199px;height:59px;float:right;background:url(../img/topoBox.jpg) no-repeat;padding:5px;margin:3px 0 0 0;color:#FFFFFF;}
+#TopoBox_01{text-align:center;float:left;width:95px;padding:20px 0 0 10px;}
+#TopoBox_02{float:left;width:85px;font-size:10px;}
+#barra{height:20px;background-color:#ED8A11;}
+#corpo{clear:both;}
+#corpoFundo{background:url(../img/corpoFundo.jpg) repeat-y;min-height:200px;}
+/*#corpoFundo{background:#28367F repeat-y;min-height:200px;}*/
+#menuLeft{width:159px;text-align:right;float:left;}
+.menuLeftLink{display:block;padding:2px;margin:2px;color:#FFFFFF;text-decoration:none;}
+.menuLeftLink:hover{background-color:#626CA2;text-decoration:none;}
+#content{width:600px;margin-left:8px;padding:2px 0 0 2px;float:left;}
+.edicoesAntigas{margin:15px 0 0 7px;text-align:center;}
+.edicoesAntigasActive a{color:red !important}
+.edicoesAntigasActive .edicoesTxt,.edicoesAntigasActive .txtBranco{color:#28367F !important;background:#fff;}
+.edicoesTopo{display:block;width:153px;height:15px;background:url(../img/edicoesAntigas.jpg) no-repeat;text-align:center;}
+.edicoesTxt{display:block;width:140px;background-color:#3F4C8D;margin-top:3px;padding:4px;text-align:left;}
+.edicoesTxt{color:#FFFFFF;}
+#down{height:100px;background-color:#ED8A11;color:#FFFFFF;text-align:right;padding-right:10px;}
+.spaceLeft20{margin-left:20px;}
+.artigosBloco{margin-bottom:35px;padding:5px;border:1px solid #f1f1f1;box-shadow: 2px 2px 2px 2px #f5f5f5; -moz-box-shadow:box-shadow:2px 2px 2px 2px #f5f5f5; -ms-box-shadow: 2px 2px 2px 2px #f5f5f5; -webkit-box-shadow: 2px 2px 2px 2px #f5f5f5;}
+.artigosResumo{color:#888}
+.artigosAutor{display:block;color:#990000;margin:10px 0 10px 0;font-weight:bold;}
+
+/*txt*/
+a{color:#666;text-decoration:none;}
+a:hover{text-decoration:underline;}
+.txtBranco{color:#FFFFFF;}
+.txt888{color:#888;text-align:justify;}
+.txtVinho{color:#990000;}
+h1{background-color:#28367F;margin:0 0 4px 0;padding:3px;font-size:12px;color:#FFFFFF;}
+h2{display:inline;margin:4px 0 4px 0;color:#990000;font-size:16px;}
+h3{color:#666666;font-size:14px;font-weight:normal;margin:0;}
+.botaoPdf{display:block;width:150px;padding:3px 3px 3px 25px;background:url(../img/iconpdf.png) #f1f1f1 no-repeat;border:1px solid #ccc;}
+.botaoPdf:hover{text-decoration:none;border:1px solid #999;color:#990000;}
+.textoPadrao{text-align:justify;padding:20px;font-size:11px;}
+.linkBlock{padding:5px;margin:10px;}
+#links{margin:10px 0 0 5px;}
+#links h3{display:block;width:153px;height:15px;font-size:11px;background:url(../img/edicoesAntigas.jpg) no-repeat;text-align:center;}
+#links a{display:block;color:#fff;font-size:11px;text-align:left;border-bottom:1px solid #3F4C8D;padding:5px;}
+#links a:hover{background:#3F4C8D;text-decoration:none}
+.font13{font-size:13px;}
+.textoPadrao table{border-collapse:collapse;border:1px solid #ccc;font-size:11px !important;}
+.textoPadrao table td{padding:5px;}
+.textoPadrao table .titulo{background:#f1f1f1;}
+
+#fotos{display:block;float:left;}
+#fotos img{margin:15px;}
+
+
+a.botao-1{
+    outline:none; display: block; padding: 10px 20px; font-size: 14px; font-weight: bold; text-decoration: none;
+    -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+    -moz-box-shadow: 2px 2px 2px #666;  -webkit-box-shadow: 2px 2px 2px #666;  box-shadow: 2px 2px 2px #666;
+    background:url(../img/botao-1.jpg) repeat-x 0 0;
+    float: left; margin: 0 10px 10px 0;
+}
+a.botao-1:hover{
+    background:url(../img/botao-1.jpg) repeat-x 0 -50px;
+}
+.clear {clear: both; height: 0; line-height: 0;}

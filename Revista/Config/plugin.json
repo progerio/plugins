@@ -1,0 +1,13 @@
+{
+    "name": "Revista Novo Enfoque",
+    "description": "Revista Novo Enfoque 1.0  ",
+    "author": "Paulo Rogerio",
+    "authorEmail": "progerio@castelobranco.br",
+    "authorUrl": "http://www.castelobranco.com.br",
+    "dependencies": {
+        "plugins": [
+            "acl",
+            "extensions"
+        ]
+    }
+}

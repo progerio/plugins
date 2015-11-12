@@ -1,0 +1,15 @@
+{
+    "name": "ImportCrm",
+    "description": "Plugin para importacao excel Para CRM",
+    "created": "2014-06-06 11:22:00",
+    "modified": "2014-06-06 11:22:00",
+    "author": "Paulo Rogério Rodrigues",
+    "authorEmail": "progerio@castelobranco.br",
+    
+    "dependencies": {
+        "plugins": [
+            "acl",
+            "extensions"
+        ]
+    }
+}
