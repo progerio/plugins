@@ -1,6 +1,6 @@
 <?php
 /**
- * @author Paulo Rogerio <progerio@castelobranco.br>
+ * @author Paulo Rogerio <paulo.rogeriobr@gmail.com>
  * ComFileComponent - Componente para tratamento de arquivos
  */
 App::uses('CakeResponse', 'Network');

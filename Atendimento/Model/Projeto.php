@@ -3,7 +3,7 @@
 /**
  * Description of Projeto
  *
- * @author Paulo Rogério <progerio@castelobranco.br>
+ * @author Paulo Rogério <paulo.rogeriobr@gmail.com>
  */
 class Projeto extends AtendimentoAppModel
 {

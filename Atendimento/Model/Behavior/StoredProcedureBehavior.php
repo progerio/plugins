@@ -4,7 +4,7 @@
  * Description of StoredProcedure
  *
  * 
- * @author Paulo Rogério <progerio@castelobranco.br>
+ * @author Paulo Rogério <paulo.rogeriobr@gmail.com>
  */
 class StoredProcedureBehavior extends ModelBehavior
 {
@@ -16,7 +16,8 @@ class StoredProcedureBehavior extends ModelBehavior
      * @param type $params
      * @return type
      * @example 
-     * 
+     */
+    
       $params = array(
                     'prm_nm_tipo_servidor' => array(
                     'type' => 'varchar(40)',

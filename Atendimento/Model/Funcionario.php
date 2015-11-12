@@ -3,7 +3,7 @@
 /**
  * Description of Funcionario
  *
- * @author Paulo Rogério <progerio@castelobranco.br>
+ * @author Paulo Rogério <<paulo.rogeriobr@gmail.com>
  */
 class Funcionario extends AtendimentoAppModel
 {

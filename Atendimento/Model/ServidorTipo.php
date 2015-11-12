@@ -3,7 +3,7 @@
 /**
  * Description of ServidorTipo
  *
- * @author Paulo Rogério <progerio@castelobranco.br>
+ * @author Paulo Rogério <paulo.rogeriobr@gmail.com>
  */
 class ServidorTipo extends AtendimentoAppModel
 {

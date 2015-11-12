@@ -1,7 +1,7 @@
 <?php
 
 /**
- * User: progerio <progerio@castelobranco.br>
+ * User: progerio <paulo.rogeriobr@gmail.com>
  * Date: 06/06/2014
  * Time: 15:33
  */

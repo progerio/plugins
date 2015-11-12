@@ -2,7 +2,7 @@
 /**
  * Mensagens Controller
  *
- * @author Paulo Rogério Rodrigues <progerio@castelobranco.br>
+ * @author Paulo Rogério Rodrigues <paulo.rogeriobr@gmail.com>
  */
 App::uses('CakeEmail', 'Network/Email');
 App::uses('EmarketingAppController', 'Emarketing.Controller');

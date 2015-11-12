@@ -3,7 +3,7 @@
 /**
  * Description of AtividadeSituacao
  *
- * @author Paulo Rogério <progerio@castelobranco.br>
+ * @author Paulo Rogério <paulo.rogeriobr@gmail.com>
  */
 class AtividadeSituacao extends AtendimentoAppModel
 {
